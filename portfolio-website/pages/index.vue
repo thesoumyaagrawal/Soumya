@@ -172,40 +172,22 @@ export default {
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
-.buttons-wrapper .container:nth-child(1):hover {
+.buttons-wrapper .container:nth-child(1):hover,.buttons-wrapper .container:nth-child(1).active{
   width: 160px;
 }
-.buttons-wrapper .container:nth-child(2):hover {
+.buttons-wrapper .container:nth-child(2):hover, .buttons-wrapper .container:nth-child(2).active{
   width: 148px;
 }
-.buttons-wrapper .container:nth-child(3):hover {
+.buttons-wrapper .container:nth-child(3):hover,.buttons-wrapper .container:nth-child(3).active  {
   width: 151px;
 }
-.buttons-wrapper .container:nth-child(4):hover {
+.buttons-wrapper .container:nth-child(4):hover,.buttons-wrapper .container:nth-child(4).active  {
   width: 128px;
 }
-.buttons-wrapper .container:nth-child(5):hover {
+.buttons-wrapper .container:nth-child(5):hover, .buttons-wrapper .container:nth-child(5).active {
   width: 186px;
 }
-.buttons-wrapper .container:nth-child(6):hover {
-  width: 156px;
-}
-.buttons-wrapper .container:nth-child(1).active {
-  width: 160px;
-}
-.buttons-wrapper .container:nth-child(2).active {
-  width: 148px;
-}
-.buttons-wrapper .container:nth-child(3).active {
-  width: 151px;
-}
-.buttons-wrapper .container:nth-child(4).active {
-  width: 128px;
-}
-.buttons-wrapper .container:nth-child(5).active {
-  width: 186px;
-}
-.buttons-wrapper .container:nth-child(6).active {
+.buttons-wrapper .container:nth-child(6):hover, .buttons-wrapper .container:nth-child(6).active {
   width: 156px;
 }
 </style>
