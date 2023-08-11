@@ -1,0 +1,35 @@
+<template>
+<v-chip
+      class="chip-buttons"
+      color="#F5F4F9"
+      outlined
+    >
+      <span class="text">{{ label }}</span>
+    </v-chip>
+</template>
+
+<script>
+export default{
+    name: "ResumeComponentsChipResumeButtons",
+    props:{
+        label: {
+            type: String,
+            default: "2010 - 2014", 
+        },
+    }
+};
+</script>
+
+<style scoped>
+.text{
+    color: #ED510F;
+}
+.chip-buttons:before {
+  background-color: transparent !important;
+}
+.chip-buttons{
+    min-width: 100px !important;
+    padding: 4px 24px;
+    height: 32px;
+}
+</style>
