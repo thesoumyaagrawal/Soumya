@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Heebo', sans-serif;
+}
+html {
+  scroll-behavior: smooth !important;
+}
+#btn {
+    font-weight: 500;
+    line-height: 21px;
+    font-size: 14px;
+    letter-spacing: 0;
+    
+}
+.v-ripple__container {
+  display: none !important;
+}
+body {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Edge */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+/* Add this CSS to hide the default scrollbar in the .app-container */
+.app-container {
+  overflow: hidden;
+}
