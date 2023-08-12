@@ -15,6 +15,7 @@
           <div class="resume-content-sub-heading-education">
             <span class="resume-content-sub-heading-education-text">B.Tech. Computer Science Engineering</span><br />
             <h6>Mody University Of Science & Technology</h6>
+            <h6>CGPA: 8.16 (till IV Semester)</h6>
           </div>
           <ResumeComponentsChipResumeButtons label="2021-2025" />
         </div>
@@ -23,18 +24,20 @@
           <div class="resume-content-sub-heading-education">
             <span class="resume-content-sub-heading-education-text">Senior Secondary Education</span><br />
             <h6>Ryan Internation School,Raipur</h6>
+            <h6>Percentage: 91%</h6>
           </div>
-          <ResumeComponentsChipResumeButtons label="CBSE, 2021" />
+          <ResumeComponentsChipResumeButtons label="CBSE,  2021" />
         </div>
 
         <div class="resume-content-sub-heading">
           <div class="resume-content-sub-heading-education">
             <span class="resume-content-sub-heading-education-text">Matriculation</span><br />
             <h6>Krishna Public School, Raipur</h6>
+            <h6>Percentage: 89.4%</h6>
           </div>
-          <ResumeComponentsChipResumeButtons label="CBSE, 2019" />
+          <ResumeComponentsChipResumeButtons label="CBSE,  2019" />
         </div>
-
+        <v-divider dark></v-divider>
         <div class="resume-cotent-heading">
           <IconsConcentricCircles />
           <h5>Experience</h5>
@@ -45,21 +48,32 @@
             <h6>Gimbooks</h6>
           </div>
           <ResumeComponentsChipResumeButtons label="June'23 - August'23" />
+        </div>
+        <div class="resume-content-sub-heading">
+          <div class="resume-content-sub-heading-education">
+            <span class="resume-content-sub-heading-education-text">Lead Competitive Programming</span><br />
+            <h6>Google Developer's Student Club, MUST</h6>
+          </div>
+          <ResumeComponentsChipResumeButtons label="2022 - 2023" />
         </div>
       </div>
 
 
       <div class="ressume-contents-right">
+
         <div class="resume-cotent-heading">
           <IconsConcentricCircles />
-          <h5>Experience</h5>
+          <h5>Skill Sets</h5>
+        </div>
+        <div class="resume-content-sub-heading">
+          <ResumeComponentsSkillSets />
         </div>
         <div class="resume-content-sub-heading">
           <div class="resume-content-sub-heading-education">
-            <span class="resume-content-sub-heading-education-text">Web-Developer Intern</span><br />
-            <h6>Gimbooks</h6>
+            <span class="resume-content-sub-heading-education-text">Lead Competitive Programming</span><br />
+            <h6>Google Developer's Student Club, MUST</h6>
           </div>
-          <ResumeComponentsChipResumeButtons label="June'23 - August'23" />
+          <ResumeComponentsChipResumeButtons label="2022 - 2023" />
         </div>
       </div>
     </div>
@@ -71,7 +85,7 @@
 .about-me-card {
   border-radius: 16px !important;
   padding: 48px 36px !important;
-  height: 140vh;
+  max-height: 540vh;
   max-width: 500vh;
   max-width: 90%;
   background-color: #292828;
@@ -96,11 +110,10 @@ h3 {
 .resume-contents {
   padding-top: 64px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-evenly;
 }
 .resume-contents-left {
-  padding: 0px;
+  padding: 0px 24px 0px 0px;
 }
 .resume-cotent-heading {
   display: flex;
@@ -119,7 +132,7 @@ h5 {
   align-items: center;
 }
 .resume-content-sub-heading-education {
-  padding: 24px 16px;
+  padding: 16px 16px;
 }
 .resume-content-sub-heading-education-text {
   font-size: 24px;
@@ -134,4 +147,9 @@ h6 {
   color: #e5e5e5;
   padding: 4px 0px;
 }
+
+.resume-contents-right {
+  padding: 0px 0px 0px 24px;
+}
 </style>
+
