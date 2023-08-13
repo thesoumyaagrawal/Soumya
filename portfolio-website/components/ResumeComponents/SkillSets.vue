@@ -16,7 +16,7 @@
             <v-list-item>
                 <v-list-item-content >
                   <v-list-item-title class= "title-text" v-text="item.title"></v-list-item-title>
-                  <v-list-item-subtitle class= "subtitle-text" v-text="item.subtitle"></v-list-item-subtitle>
+                  <v-list-item-title class= "subtitle-text" v-text="item.subtitle"></v-list-item-title>
                 </v-list-item-content>
             </v-list-item>
   
@@ -42,7 +42,6 @@
             <v-list-item>
                 <v-list-item-content >
                   <v-list-item-title class= "title-text" v-text="item2.title"></v-list-item-title>
-                  <v-list-item-subtitle v-text="item2.subtitle"></v-list-item-subtitle>
                 </v-list-item-content>
             </v-list-item>
   
@@ -117,7 +116,7 @@ export default{
     font-size: 16px;
   font-weight: 200;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #aca4a4;
   padding: 4px 0px;
   }
   .v-list-item__content {

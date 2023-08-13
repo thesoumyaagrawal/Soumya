@@ -1,5 +1,5 @@
 <template>
-    <perfect-scrollbar>
+    
    <v-app dark class="app-container">
     <v-main>
       <div class="blue-rectangle"></div>
@@ -8,7 +8,7 @@
       </v-container>
     </v-main>
   </v-app>
-</perfect-scrollbar>
+
 </template>
 
 <script>
@@ -21,14 +21,12 @@ export default {
   },
 }
 </script>
+
 <style src="vue2-perfect-scrollbar/dist/vue2-perfect-scrollbar.css" />
+
 <style scoped>
 .v-application {
   background-color: #1C1C1C;
-}
-.ps {
-  height: 100vh;
-  overflow-x: hidden;
 }
 .blue-rectangle {
   position: absolute;
