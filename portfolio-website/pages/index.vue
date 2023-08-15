@@ -3,7 +3,6 @@
     <div class="heading">
       <socialicons />
     </div>
-
     <div class="home-page">
       <div class="left">
         <intro />
