@@ -144,6 +144,12 @@
         <v-divider dark></v-divider>
       </div>
     </div>
+    <br><v-divider dark></v-divider><br>
+    <div class="resume-cotent-heading">
+          <IconsConcentricCircles />
+          <h5>Achievements</h5>
+        </div>
+    <ResumeComponentsAchievements />
   </v-card>
 </template>
 
