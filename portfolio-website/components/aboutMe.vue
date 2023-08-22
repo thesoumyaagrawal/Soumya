@@ -152,4 +152,122 @@ img {
   color: #F5F5F5;
   padding: 16px 0px;
 }
+@media screen and (max-width: 768px) {
+  .about-me-card {
+    padding: 24px 16px !important;
+    height: auto;
+  }
+  
+  .about-me-card-contents {
+    flex-direction: column;
+  }
+  
+  .about-me-left {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .about-me-intro-card {
+    min-width: unset !important;
+    left: 0;
+    margin: 0 auto;
+  }
+  
+  .about-me-right {
+    padding-left: 16px;
+  }
+  
+  .imgcard,
+  img {
+    height: auto;
+    width: 100%;
+  }
+  
+  .about-me-intro-card-content {
+    font-size: 16px;
+  }
+  
+  .about-me-heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .about-me-title {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 8px 0;
+  }
+  
+  .about-me-short-description {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 8px 0;
+  }
+  
+  .about-me-paragraph {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .about-me-card {
+    padding: 24px 16px !important;
+    height: auto;
+  }
+  
+  .about-me-card-contents {
+    flex-direction: column;
+  }
+  
+  .about-me-left {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .about-me-intro-card {
+    min-width: unset !important;
+    left: 0;
+    margin: 0 auto;
+  }
+  
+  .about-me-right {
+    padding-left: 16px;
+  }
+  
+  .imgcard,
+  img {
+    height: auto;
+    width: 100%;
+  }
+  
+  .about-me-intro-card-content {
+    font-size: 16px;
+  }
+  
+  .about-me-heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .about-me-title {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 8px 0;
+  }
+  
+  .about-me-short-description {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 8px 0;
+  }
+  
+  .about-me-paragraph {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 0;
+  }
+}
 </style>

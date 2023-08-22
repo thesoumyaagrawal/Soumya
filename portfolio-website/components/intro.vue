@@ -44,4 +44,24 @@ h3 {
   padding-top: 16px;
   color: #8d8787;
 }
+@media screen and (max-width: 480px) {
+  .v-card__title {
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 16px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 16px;
+  }
+  
+  .intro-text {
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 16px;
+    padding-top: 8px;
+  }
+}
 </style>

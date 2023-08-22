@@ -29,8 +29,10 @@ export default{
   background-color: transparent !important;
 }
 .chip-buttons{
-    min-width: 100px !important;
+    min-width: 52px !important;
     padding: 4px 16px !important;
     height: 32px;
+    text-align: center;
+    border-radius: 64px !important;
 }
 </style>

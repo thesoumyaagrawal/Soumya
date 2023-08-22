@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div> 
     <div class="heading">
       <socialicons />
     </div>
@@ -19,7 +19,7 @@
                 @buttonClicked="handleButtonClicked('About Me')"
               >
                 <template #buttonIcon>
-                  <IconsSample
+                  <IconsAboutMeIcon
                     :stroke="
                       activeButton === 'About Me' ? '#FFFFFF' : '#ED510F'
                     "
@@ -37,7 +37,7 @@
                 @buttonClicked="handleButtonClicked('Resume')"
               >
                 <template #buttonIcon>
-                  <IconsSample
+                  <IconsResumeIcon
                     :stroke="activeButton === 'Resume' ? '#FFFFFF' : '#ED510F'"
                   />
                 </template>
@@ -55,7 +55,7 @@
               @buttonClicked="handleButtonClicked('Projects')"
             >
               <template #buttonIcon>
-                <IconsSample
+                <IconsProjectsIcon
                   :stroke="activeButton === 'Projects' ? '#FFFFFF' : '#ED510F'"
                 />
               </template>
@@ -69,7 +69,7 @@
               @buttonClicked="handleButtonClicked('Blogs')"
             >
               <template #buttonIcon>
-                <IconsSample
+                <IconsBlogsIcon
                   :stroke="activeButton === 'Blogs' ? '#FFFFFF' : '#ED510F'"
                 />
               </template>
@@ -86,7 +86,7 @@
               @buttonClicked="handleButtonClicked('Testimonials')"
             >
               <template #buttonIcon>
-                <IconsSample
+                <IconsTestimonialsIcon
                   :stroke="
                     activeButton === 'Testimonials' ? '#FFFFFF' : '#ED510F'
                   "
@@ -98,20 +98,21 @@
           <div
             class="container"
             :class="{ active: activeButton === 'Contact Me' }"
-          >
+          ><a href="#contact">
             <titleButtons
               label="Contact Me"
               :isActive="activeButton === 'Contact Me'"
               @buttonClicked="handleButtonClicked('Contact Me')"
             >
               <template #buttonIcon>
-                <IconsSample
+                <IconsContactIcon
                   :stroke="
                     activeButton === 'Contact Me' ? '#FFFFFF' : '#ED510F'
                   "
                 />
               </template>
             </titleButtons>
+          </a>
           </div>
         </div>
       </div>
@@ -120,12 +121,14 @@
         <myImage1 />
       </div>
     </div>
-
     <div id="element">
       <aboutMe v-show="activeButton === 'About Me'" />
     </div>
     <div id="resume">
       <resume v-show="activeButton === 'Resume'" />
+    </div>
+    <div id="contact">
+      <contactMe v-show="activeButton === 'Contact Me'" />
     </div>
   </div>
 </template>

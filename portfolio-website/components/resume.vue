@@ -4,7 +4,7 @@
       <h4>Resume</h4>
       <h3>Combination of Skills & Experience</h3>
     </div>
-
+      <!------------------------------------------>
     <div class="resume-contents">
       <div class="resume-contents-left">
         <div class="resume-cotent-heading">
@@ -43,7 +43,9 @@
           </div>
           <ResumeComponentsChipResumeButtons label="CBSE, 2019" />
         </div>
+
         <v-divider dark></v-divider>
+        <!------------------------------------------>
         <div class="resume-cotent-heading">
           <IconsConcentricCircles />
           <h5>Experience</h5>
@@ -222,5 +224,46 @@ h6 {
 
 .resume-contents-right {
   padding: 0px 0px 0px 64px;
+}
+@media (max-width: 480px) {
+  .about-me-card {
+    padding: 16px !important;
+  }
+  
+  h3 {
+    font-size: 24px;
+    width: auto;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
+  
+  h5 {
+    font-size: 24px;
+  }
+  
+  h6 {
+    font-size: 14px;
+  }
+  .resume-contents {
+    padding: 0;
+  }
+  
+  .resume-cotent-heading {
+    align-items: flex-start;
+  }
+  
+  .resume-content-sub-heading-education,
+  .resume-content-sub-heading-education-text,
+  h6 {
+    font-size: 12px;
+    padding: 2px 0;
+  }
+  .resume-content-sub-heading {
+    display: inline-block;
+    justify-content: start;
+  }
+
 }
 </style>

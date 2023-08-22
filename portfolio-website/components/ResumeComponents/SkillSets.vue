@@ -12,20 +12,21 @@
   
       <v-list class="list-class" outlined>
       
-          <template v-for="(item, index) in items">
-            <v-list-item>
-                <v-list-item-content >
-                  <v-list-item-title class= "title-text" v-text="item.title"></v-list-item-title>
-                  <v-list-item-title class= "subtitle-text" v-text="item.subtitle"></v-list-item-title>
-                </v-list-item-content>
-            </v-list-item>
-  
-            <v-divider
-              v-if="index < items.length - 1"
-              :key="index"
-              dark
-            ></v-divider>
-          </template>
+      
+  <v-list-item v-for="(item, index) in items" v-bind:key="index">
+    <v-list-item-content>
+      <v-list-item-title class="title-text">{{ item.title }}</v-list-item-title>
+      <v-list-item-title class="subtitle-text">{{ item.subtitle }}</v-list-item-title>
+    </v-list-item-content>
+  </v-list-item>
+
+  <v-divider
+    v-if="index < items.length - 1"
+    :key="index"
+    dark
+  ></v-divider>
+
+
       
       </v-list>
 
@@ -38,10 +39,10 @@
   
       <v-list two-line class="list-class" outlined>
       
-          <template v-for="(item2, index) in items2">
-            <v-list-item>
+          
+            <v-list-item v-for="(item2, index) in items2" v-bind:key="index">
                 <v-list-item-content >
-                  <v-list-item-title class= "title-text" v-text="item2.title"></v-list-item-title>
+                  <v-list-item-title class= "title-text">{{item2.title}}</v-list-item-title>
                 </v-list-item-content>
             </v-list-item>
   
@@ -50,7 +51,7 @@
               :key="index"
               dark
             ></v-divider>
-          </template>
+        
       
       </v-list>
     </v-card>

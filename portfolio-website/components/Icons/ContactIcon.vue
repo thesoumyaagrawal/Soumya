@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: "IconsSample",
+  name: "IconsContactIcon",
   props:{
     stroke: {
       type: String,

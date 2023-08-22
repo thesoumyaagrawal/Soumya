@@ -43,4 +43,21 @@ img{
     transform: rotate(-50deg);
   }
 }
+@media screen and (max-width: 480px) {
+  .image-wrapper {
+    align-items: flex-start; /* Adjust alignment for smaller screens */
+  }
+
+  .rectangle {
+    width: 100px;
+    height: 160px;
+  }
+  img{
+    height: 250px;
+    width: auto;
+}
+.image-card{
+    border-radius: 12px;
+}
+}
 </style>
