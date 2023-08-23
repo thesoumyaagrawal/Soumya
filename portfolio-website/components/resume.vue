@@ -4,10 +4,10 @@
       <h4>Resume</h4>
       <h3>Combination of Skills & Experience</h3>
     </div>
-      <!------------------------------------------>
-    <div class="resume-contents">
+    <!------------------------------------------>
+    <div class="resume-contents ">
       <div class="resume-contents-left">
-        <div class="resume-cotent-heading">
+        <div class="resume-content-heading">
           <IconsConcentricCircles />
           <h5>Education</h5>
         </div>
@@ -19,7 +19,7 @@
             <h6>Mody University Of Science & Technology</h6>
             <h6>CGPA: 8.16 (till IV Semester)</h6>
           </div>
-          <ResumeComponentsChipResumeButtons label="2021-2025" />
+          <ResumeComponentsChipResumeButtons label="2021-25" />
         </div>
 
         <div class="resume-content-sub-heading">
@@ -45,17 +45,20 @@
         </div>
 
         <v-divider dark></v-divider>
-        <!------------------------------------------>
-        <div class="resume-cotent-heading">
+
+        <!-----------Experience------------------->
+        <div class="resume-content-heading">
           <IconsConcentricCircles />
           <h5>Experience</h5>
         </div>
         <div class="resume-content-sub-heading">
           <div class="resume-content-sub-heading-education">
-            <span class="resume-content-sub-heading-education-text"
-              >Web-Developer Intern</span
-            ><br />
-            <h6>Gimbooks</h6>
+            <div class="heading-and-year">
+              <span class="resume-content-sub-heading-education-text"
+                >Web-Developer Intern</span
+              ><ResumeComponentsChipResumeButtons label="June'23 - August'23" />
+            </div>
+            <h6>GIM Info Solutions Private Limited</h6>
             <h6>
               - Created reusable components using Vue.js and Vuetify for a new
               web app theme project, ensuring consistent UI and smoother
@@ -70,29 +73,34 @@
               real-world projects and staying updated with industry trends.
             </h6>
           </div>
-          <ResumeComponentsChipResumeButtons label="June'23 - August'23" />
         </div>
         <div class="resume-content-sub-heading">
           <div class="resume-content-sub-heading-education">
-            <span class="resume-content-sub-heading-education-text"
-              >Lead Competitive Programming</span
-            ><br />
+            <div class="heading-and-year">
+              <span class="resume-content-sub-heading-education-text"
+                >Lead CP, GDSC</span
+              ><ResumeComponentsChipResumeButtons label="2022-2023" />
+            </div>
             <h6>Google Developer's Student Club, MUST</h6>
             <h6>
-              - Led coding club, organized competitions, conducted CP sessions,
-              and mentored to enhance coding skills of juniors and peers.
+              - Led competitive Programming club, organized competitions,
+              conducted CP sessions, mentored juniors and peers to enhance
+              coding skills.
+            </h6>
+            <h6>
+              - Played key role in driving educational initiatives, showcasing
+              leadership and organizational skills.
             </h6>
             <h6>
               - Played key role in driving educational initiatives, showcasing
               leadership and organizational skills.
             </h6>
           </div>
-          <ResumeComponentsChipResumeButtons label="2022 - 2023" />
         </div>
       </div>
 
       <div class="ressume-contents-right">
-        <div class="resume-cotent-heading">
+        <div class="resume-content-heading">
           <IconsConcentricCircles />
           <h5>Skill Sets</h5>
         </div>
@@ -103,54 +111,65 @@
 
         <v-divider dark></v-divider>
 
-        <div class="resume-cotent-heading">
+        <div class="resume-content-heading">
           <IconsConcentricCircles />
           <h5>Extracurriculars</h5>
         </div>
+     
         <div class="resume-content-sub-heading">
           <div class="resume-content-sub-heading-education">
-            <h6>2nd Runner-up</h6>
+            <div class="heading-and-year">
+              <h6>2nd Runner-Up</h6>
+              <ResumeComponentsChipResumeButtons label="January 2023" />
+            </div>
             <h6>
               in College-Mini-Vlog making Competition organized at University
               level.
             </h6>
           </div>
-          <ResumeComponentsChipResumeButtons label="2023" />
         </div>
 
         <div class="resume-content-sub-heading">
           <div class="resume-content-sub-heading-education">
-            <h6>Winner, Group Discussion</h6>
-            <h6>Topic "Metaverse" organized by the IEEE MUST Chapter.</h6>
+            <div class="heading-and-year">
+              <h6>Winner</h6>
+              <ResumeComponentsChipResumeButtons label="November 2022" />
+            </div>
+            <h6>
+              Group Discussion Topic "Metaverse" organized by the IEEE MUST Chapter.
+            </h6>
           </div>
-          <ResumeComponentsChipResumeButtons label="2022" />
         </div>
 
         <div class="resume-content-sub-heading">
           <div class="resume-content-sub-heading-education">
-            <h6>Awarded with High Recommendation,</h6>
+            <div class="heading-and-year">
+              <h6>Awarded with High Recommendation</h6>
+              <ResumeComponentsChipResumeButtons label="2019" />
+            </div>
             <h6>
-              Model United Nations organised by United Nationalist of India.
+              Model United Nations (MUN) organised by United Nationalist of India.
             </h6>
           </div>
-          <ResumeComponentsChipResumeButtons label="2019" />
         </div>
+
         <div class="resume-content-sub-heading">
           <div class="resume-content-sub-heading-education">
             <h6>
-              Participated in various Debate competitions, Chess competitions, Art Craft & Painting
-              competitions, Group Disussions, Hackathons & Quizes.
+              Participated in various Debate, Chess,
+              Art, Craft & Painting competitions, Group Disussions, Hackathons &
+              Quizes.
             </h6>
           </div>
         </div>
-        <v-divider dark></v-divider>
       </div>
     </div>
-    <br><v-divider dark></v-divider><br>
-    <div class="resume-cotent-heading">
-          <IconsConcentricCircles />
-          <h5>Achievements</h5>
-        </div>
+    <br /><v-divider dark></v-divider><br />
+    
+    <div class="resume-content-heading">
+      <IconsConcentricCircles />
+      <h5>Achievements</h5>
+    </div>
     <ResumeComponentsAchievements />
   </v-card>
 </template>
@@ -181,15 +200,11 @@ h3 {
   color: #ffffff;
   padding: 8px 0px;
 }
-.resume-contents {
-  padding-top: 64px;
-  display: flex;
-  justify-content: space-evenly;
-}
+
 .resume-contents-left {
   padding: 0px 64px 0px 0px;
 }
-.resume-cotent-heading {
+.resume-content-heading {
   display: flex;
   align-items: center;
 }
@@ -206,7 +221,7 @@ h5 {
   align-items: center;
 }
 .resume-content-sub-heading-education {
-  padding: 16px 16px;
+  padding: 16px 0px;
 }
 .resume-content-sub-heading-education-text {
   font-size: 24px;
@@ -221,49 +236,58 @@ h6 {
   color: #e5e5e5;
   padding: 4px 0px;
 }
+.heading-and-year {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
 .resume-contents-right {
   padding: 0px 0px 0px 64px;
+}
+@media only screen and (min-width: 1200px) {
+  .resume-contents {
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-evenly;
+}
 }
 @media (max-width: 480px) {
   .about-me-card {
     padding: 16px !important;
   }
-  
+
   h3 {
     font-size: 24px;
     width: auto;
   }
-  
+
   h4 {
     font-size: 20px;
   }
-  
+
   h5 {
     font-size: 24px;
   }
-  
+
   h6 {
     font-size: 14px;
   }
-  .resume-contents {
-    padding: 0;
+  .resume-content-sub-heading {
+    display: block;
   }
-  
-  .resume-cotent-heading {
-    align-items: flex-start;
+  .resume-contents[data-v-0cb6eaa8] {
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: stretch;
+    flex-wrap: wrap;
   }
-  
-  .resume-content-sub-heading-education,
+
   .resume-content-sub-heading-education-text,
   h6 {
     font-size: 12px;
     padding: 2px 0;
   }
-  .resume-content-sub-heading {
-    display: inline-block;
-    justify-content: start;
-  }
-
 }
 </style>
