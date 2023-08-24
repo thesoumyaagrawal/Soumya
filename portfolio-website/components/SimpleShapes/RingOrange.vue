@@ -60,3 +60,17 @@ export default {
   name: "SimpleShapesRingOrange",
 };
 </script>
+<style scoped>
+.simple-shape {
+  animation-name: rotate;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+}
+
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
+</style>

@@ -63,6 +63,7 @@
           </div>
 
           <div class="container" :class="{ active: activeButton === 'Blogs' }">
+            <a href="#resume">
             <titleButtons
               label="Blogs"
               :isActive="activeButton === 'Blogs'"
@@ -74,6 +75,7 @@
                 />
               </template>
             </titleButtons>
+          </a>
           </div>
 
           <div
@@ -126,6 +128,9 @@
     </div>
     <div id="resume">
       <resume v-show="activeButton === 'Resume'" />
+    </div>
+    <div id="blogs">
+      <blogs v-show="activeButton === 'Blogs'" />
     </div>
     <div id="contact">
       <contactMe v-show="activeButton === 'Contact Me'" />

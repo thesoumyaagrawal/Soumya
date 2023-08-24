@@ -1,10 +1,28 @@
 <template>
-    <div>
-    <v-card class="mx-auto my-12 about-me-card">
-      <div class="about-me-right">
+  <v-card class="mx-auto my-12 about-me-card">
+    
+      <div class="about-me-left">
         <div class="about-me-heading">Contact Me</div>
-        <div class="about-me-title">Contact me to get your work done</div>
+        <div class="about-me-title">
+          Contact Me to get your Work Done.
+        </div>
+      </div><br><br>
 
+      <div class="about-me-card-contents">
+        <div class="about-me-left">
+        <div class="about-me-heading">Contact Me</div>
+        <div class="about-me-title">
+          Contact Me to get your Work Done.
+        </div>
+      </div>
+      <div class="about-me-right">
+        <div class="about-me-heading">About Me</div>
+        <div class="about-me-title">
+          Innovating Code for Futuristic Solutions.
+        </div>
+        <div class="about-me-short-description">
+          A Passionate Software & Web Developer based In India.
+        </div>
         <div class="about-me-paragraph">
           <p>Hello There! I am Soumya Agrawal, a vibrant and imaginative individual
           from the captivating land of India.</p> 
@@ -18,12 +36,12 @@
           on this path, where technology and creativity intertwine to shape
           remarkable digital experiences.</p>
         </div>
-        <div>
+        <div class="about-me-download">
           <downloadCVButton />
         </div>
       </div>
+    </div>
   </v-card>
-</div>
 </template>
 
 <style scoped>
@@ -35,9 +53,6 @@
   background-color: #292828;
 }
 .about-me-card-contents {
-  display: flex;
-}
-.about-me-left {
   display: flex;
 }
 .imgcard {
@@ -100,6 +115,13 @@ img {
   color: #ffffff;
   padding: 16px 0px;
 }
+.about-me-short-description {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #b0acac;
+  padding: 16px 0px;
+}
 .about-me-paragraph{
   font-size: 18px;
   font-weight: 200;
@@ -107,5 +129,122 @@ img {
   color: #F5F5F5;
   padding: 16px 0px;
 }
-
+@media screen and (max-width: 768px) {
+  .about-me-card {
+    padding: 24px 16px !important;
+    height: auto;
+  }
+  
+  .about-me-card-contents {
+    flex-direction: column;
+  }
+  
+  .about-me-left {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .about-me-intro-card {
+    min-width: unset !important;
+    left: 0;
+    margin: 0 auto;
+  }
+  
+  .about-me-right {
+    padding-left: 16px;
+  }
+  
+  .imgcard,
+  img {
+    height: auto;
+    width: 100%;
+  }
+  
+  .about-me-intro-card-content {
+    font-size: 16px;
+  }
+  
+  .about-me-heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .about-me-title {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 8px 0;
+  }
+  
+  .about-me-short-description {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 8px 0;
+  }
+  
+  .about-me-paragraph {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .about-me-card {
+    padding: 24px 16px !important;
+    height: auto;
+  }
+  
+  .about-me-card-contents {
+    flex-direction: column;
+  }
+  
+  .about-me-left {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .about-me-intro-card {
+    min-width: unset !important;
+    left: 0;
+    margin: 0 auto;
+  }
+  
+  .about-me-right {
+    padding-left: 16px;
+  }
+  
+  .imgcard,
+  img {
+    height: auto;
+    width: 100%;
+  }
+  
+  .about-me-intro-card-content {
+    font-size: 16px;
+  }
+  
+  .about-me-heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .about-me-title {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 8px 0;
+  }
+  
+  .about-me-short-description {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 8px 0;
+  }
+  
+  .about-me-paragraph {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 0;
+  }
+}
 </style>

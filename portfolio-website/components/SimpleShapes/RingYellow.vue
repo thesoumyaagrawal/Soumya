@@ -55,9 +55,25 @@
       </div>
     </div>
   </template>
+
   <script>
   export default {
     name: "SimpleShapesRingYellow",
   };
   </script>
+
+<style scoped>
+.simple-shape {
+  animation-name: rotate;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 20%;
+}
+
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
+</style>
   

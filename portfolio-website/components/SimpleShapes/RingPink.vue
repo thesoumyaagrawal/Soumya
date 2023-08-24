@@ -2,9 +2,9 @@
     <div class="simple-shape">
       <div class="simple-shape-1">
         <svg
-          width="33"
-          height="33"
-          viewBox="0 0 33 33"
+          width="40"
+          height="40"
+          viewBox="0 0 40 40"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -60,4 +60,19 @@
     name: "SimpleShapesRingPink",
   };
   </script>
+
+  <style scoped>
+.simple-shape {
+  animation-name: rotate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+}
+
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(0deg); }
+}
+</style>
   
