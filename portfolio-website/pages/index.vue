@@ -80,17 +80,17 @@
 
           <div
             class="container"
-            :class="{ active: activeButton === 'Testimonials' }"
+            :class="{ active: activeButton === 'Impressions' }"
           >
             <titleButtons
-              label="Testimonials"
-              :isActive="activeButton === 'Testimonials'"
-              @buttonClicked="handleButtonClicked('Testimonials')"
+              label="Impressions"
+              :isActive="activeButton === 'Impressions'"
+              @buttonClicked="handleButtonClicked('Impressions')"
             >
               <template #buttonIcon>
                 <IconsTestimonialsIcon
                   :stroke="
-                    activeButton === 'Testimonials' ? '#FFFFFF' : '#ED510F'
+                    activeButton === 'Impressions' ? '#FFFFFF' : '#ED510F'
                   "
                 />
               </template>

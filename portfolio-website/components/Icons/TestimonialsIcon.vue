@@ -12,7 +12,7 @@
       
       <script>
       export default {
-        name: "IconsTestimonialsIcon",
+        name: "IconsImpressionsIcon",
         props: {
           stroke: {
             type: String,

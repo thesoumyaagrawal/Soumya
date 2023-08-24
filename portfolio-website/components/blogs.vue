@@ -6,18 +6,41 @@
           Latest Tips, Tricks and Updates.
         </div>
       </div><br><br>
-      <div class="row">
-        <v-col cols="4">
-            <BlogsComponentsBlog1 />
-        </v-col>
-        <v-col cols="4">
-            <BlogsComponentsBlog1 />
-        </v-col>
-        <v-col cols="4">
-            <BlogsComponentsBlog1 />
-        </v-col>
-  
-    </div>
+     
+    <v-item-group>
+      <v-container>
+        <v-row>
+          <v-col cols="12" md="4">
+           <BlogsComponentsBlog1 />
+          </v-col>
+          <v-col cols="12" md="4">
+           <BlogsComponentsBlog2 />
+          </v-col>
+          <v-col cols="12" md="4">
+           <BlogsComponentsBlog3 />
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-item-group>
+
+      
+    <v-item-group>
+      <v-container>
+        <v-row>
+          <v-col cols="12" md="4">
+           <BlogsComponentsBlog1 />
+          </v-col>
+          <v-col cols="12" md="4">
+           <BlogsComponentsBlog2 />
+          </v-col>
+          <v-col cols="12" md="4">
+           <BlogsComponentsBlog3 />
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-item-group>
+
+
     </v-card>
   </template>
   
@@ -25,7 +48,7 @@
   .about-me-card {
     border-radius: 16px !important;
     padding: 48px 36px !important;
-    height: 140vh;
+    min-height: 140vh;
     max-width: 90%;
     background-color: #292828;
   }
