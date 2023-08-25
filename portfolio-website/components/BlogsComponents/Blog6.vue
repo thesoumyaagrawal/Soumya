@@ -2,16 +2,26 @@
   <div>
     <v-dialog v-model="dialog" width="600px">
       <template v-slot:activator="{ on, attrs }">
-        <v-card elevation="6" class="blog-card" color= "#1c1c1c" v-bind="attrs" v-on="on">
-          <img
-              src="~/assets/Images/FlipkartWordCloud.png"
+        <v-card
+          elevation="6"
+          class="blog-card"
+          color="#1c1c1c"
+          v-bind="attrs"
+          v-on="on"
+        >
+          <div class="center-image">
+            <img
+              src="~/assets/Images/ArtWordCloud.png"
               width="300px"
               height="auto"
               class="grey darken-4"
-            >
-            <v-divider dark></v-divider>
+            />
+          </div>
+          <v-divider dark></v-divider>
           <v-card-title class="short-title">
-            <span class="title-text">Flipkart Rejection: Rising Stronger from Within.</span>
+            <span class="title-text"
+              >Delighting in Discovery: My Creative Journey.</span
+            >
           </v-card-title>
         </v-card>
       </template>
@@ -156,13 +166,12 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
-  
-</div>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "BlogsComponentsBlog1",
+  name: "BlogsComponentsBlog6",
   data() {
     return {
       dialog: false,
@@ -172,11 +181,18 @@ export default {
 </script>
 
 <style scoped>
-.title-text{
-  color: #FFFFFF;
+.title-text {
+  color: #ffffff;
   font-size: 21px;
   line-height: 24px;
   font-weight: 500;
-  word-break:normal;
+  word-break: normal;
 }
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /* Adjust padding as needed */
+}
+
 </style>

@@ -21,20 +21,20 @@
           </v-col>
         </v-row>
       </v-container>
-    </v-item-group>
+    </v-item-group><br>
 
       
     <v-item-group>
       <v-container>
         <v-row>
           <v-col cols="12" md="4">
-           <BlogsComponentsBlog1 />
+           <BlogsComponentsBlog4 />
           </v-col>
           <v-col cols="12" md="4">
-           <BlogsComponentsBlog2 />
+           <BlogsComponentsBlog5 />
           </v-col>
           <v-col cols="12" md="4">
-           <BlogsComponentsBlog3 />
+           <BlogsComponentsBlog6 />
           </v-col>
         </v-row>
       </v-container>

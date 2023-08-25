@@ -2,7 +2,7 @@
     <div>
       <v-dialog v-model="dialog" width="600px">
         <template v-slot:activator="{ on, attrs }">
-          <v-card class="blog-card" color= "#1c1c1c" v-bind="attrs" v-on="on">
+          <v-card elevation="6" class="blog-card" color= "#1c1c1c" v-bind="attrs" v-on="on">
             <img
                 src="~/assets/Images/InternshipWordCloud.png"
                 width="300px"

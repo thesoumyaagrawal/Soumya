@@ -4,7 +4,7 @@
         <template v-slot:activator="{ on, attrs }">
           <v-card elevation="6" class="blog-card" color= "#1c1c1c" v-bind="attrs" v-on="on">
             <img
-                src="~/assets/Images/CollegeWordCloud.png"
+                src="~/assets/Images/GdscWordCloud.png"
                 width="300px"
                 height="auto"
                 class="grey darken-4"
@@ -162,7 +162,7 @@
   
   <script>
   export default {
-    name: "BlogsComponentsBlog3",
+    name: "BlogsComponentsBlog4",
     data() {
       return {
         dialog: false,
