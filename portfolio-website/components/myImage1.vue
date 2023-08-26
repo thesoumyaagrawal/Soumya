@@ -10,6 +10,7 @@
 <style scoped>
 .image-wrapper{
     align-items: flex-end;
+    margin-right: 12px;
 }
 img{
     height: 400px;

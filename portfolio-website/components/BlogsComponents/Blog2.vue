@@ -3,12 +3,14 @@
       <v-dialog v-model="dialog" width="600px">
         <template v-slot:activator="{ on, attrs }">
           <v-card elevation="6" class="blog-card" color= "#1c1c1c" v-bind="attrs" v-on="on">
+            <div class="center-image">
             <img
                 src="~/assets/Images/InternshipWordCloud.png"
                 width="300px"
                 height="auto"
                 class="grey darken-4"
               >
+            </div>
               <v-divider dark></v-divider>
             <v-card-title class="short-title">
               <span class="title-text">Internship Chronicles: Learn, Grow & Succeed.</span>
@@ -179,5 +181,11 @@
     font-weight: 500;
     word-break:normal;
   }
+  .center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; /* Adjust padding as needed */
+}
   </style>
   

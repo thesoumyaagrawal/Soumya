@@ -228,7 +228,7 @@ img {
   }
   
   .about-me-intro-card {
-    min-width: unset !important;
+    min-width: 100% !important;
     left: 0;
     margin: 0 auto;
   }

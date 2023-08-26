@@ -25,8 +25,8 @@
   line-height: 38px;
   color: #ed510f;
 }
-.card-content{
-    display: block;
+.card-content {
+  display: block;
 }
 h3 {
   font-size: 52px;
@@ -44,24 +44,48 @@ h3 {
   padding-top: 16px;
   color: #8d8787;
 }
-@media screen and (max-width: 480px) {
+
+/* Adjust for screens between 300px and 480px */
+@media screen and (min-width: 300px) and (max-width: 480px) {
   .v-card__title {
     font-size: 24px;
     line-height: 28px;
     padding-left: 16px;
   }
-  
+
   h3 {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 36px;
+    line-height: 40px;
     padding-left: 16px;
   }
-  
+
   .intro-text {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 20px;
     padding-left: 16px;
     padding-top: 8px;
+  }
+}
+
+/* Adjust for screens between 480px and 720px */
+@media screen and (min-width: 480px) and (max-width: 720px) {
+  .v-card__title {
+    font-size: 28px;
+    line-height: 32px;
+    padding-left: 32px;
+  }
+
+  h3 {
+    font-size: 44px;
+    line-height: 48px;
+    padding-left: 32px;
+  }
+
+  .intro-text {
+    font-size: 18px;
+    line-height: 22px;
+    padding-left: 32px;
+    padding-top: 12px;
   }
 }
 </style>

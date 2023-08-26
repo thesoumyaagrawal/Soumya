@@ -140,6 +140,7 @@
 
 <script>
 export default {
+  
   name: "IndexPage",
   data() {
     return {
@@ -165,6 +166,9 @@ export default {
 }
 .left {
   width: 70%;
+}
+.right{
+  width: 30%;
 }
 .buttons-wrapper {
   z-index: 1;
@@ -196,5 +200,21 @@ export default {
 }
 .buttons-wrapper .container:nth-child(6):hover, .buttons-wrapper .container:nth-child(6).active {
   width: 156px;
+}
+@media screen and (max-width: 600px) {
+  .buttons-wrapper {
+    padding-left: 0; /* Remove padding to center align buttons */
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .left{
+    width: 55%;
+  }
+  
+ .buttons-wrapper .container {
+    width: 100%; 
+    margin: 4px 0; 
+}
 }
 </style>
