@@ -31,7 +31,7 @@ export default {
     },
     color: {
       type: String,
-      default: "#333F44",
+      default: "#FEFAE0",
     },
     isActive: Boolean, 
     default: false,// Prop to control the active state
@@ -70,7 +70,7 @@ export default {
   display: inline-block;
   transition: max-width 0.1s ;
   vertical-align: top;
-  color: #FFFFFF;
+  color: #ed510f;
   white-space: nowrap;
   line-height: 21px;
   font-weight: 600;
@@ -82,7 +82,7 @@ export default {
   padding-left: 12px;
   padding-right: 8px;
   transition: max-width 0.5s;
-  color: #FFFFFF;
+  color: #ed510f;
 }
 .title-buttons.expanded .title-button-text{
   max-width: 400px;

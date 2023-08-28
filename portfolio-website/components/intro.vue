@@ -23,7 +23,7 @@
   font-weight: 700;
   padding-left: 48px;
   line-height: 38px;
-  color: #ed510f;
+  color: #ED510F;
 }
 .card-content {
   display: block;
@@ -33,6 +33,7 @@ h3 {
   font-weight: 600;
   line-height: 56px;
   width: 261px;
+  color: #333333;
   padding-left: 64px;
 }
 .intro-text {

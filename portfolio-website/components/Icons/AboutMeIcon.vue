@@ -31,46 +31,6 @@
         />
       </g>
     </g>
-    <defs>
-      <filter
-        id="filter0_d_109_61"
-        x="-3.78577"
-        y="0.214233"
-        width="37.5714"
-        height="37.5714"
-        filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
-      >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-        <feColorMatrix
-          in="SourceAlpha"
-          type="matrix"
-          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-          result="hardAlpha"
-        />
-        <feOffset dy="4" />
-        <feGaussianBlur stdDeviation="2" />
-        <feComposite in2="hardAlpha" operator="out" />
-        <feColorMatrix
-          type="matrix"
-          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-        />
-        <feBlend
-          mode="normal"
-          in2="BackgroundImageFix"
-          result="effect1_dropShadow_109_61"
-        />
-        <feBlend
-          mode="normal"
-          in="SourceGraphic"
-          in2="effect1_dropShadow_109_61"
-          result="shape"
-        />
-      </filter>
-      <clipPath id="clip0_109_61">
-        <rect width="30" height="30" fill="white" />
-      </clipPath>
-    </defs>
   </svg>
 </template>
 

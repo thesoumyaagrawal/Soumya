@@ -15,6 +15,9 @@ html {
 .v-ripple__container {
   display: none !important;
 }
+.v-btn:before {
+  background-color: transparent !important;
+}
 body {
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none; /* For Edge */

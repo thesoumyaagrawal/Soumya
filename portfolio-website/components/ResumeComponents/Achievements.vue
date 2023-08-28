@@ -28,19 +28,15 @@ export default {
   data: () => ({
     items: [
       {
-        color: "#ed510f",
+        color: "#ED510F",
         icon: "mdi-star",
       },
       {
-        color: "#ed510f",
+        color: "#ED510F",
         icon: "mdi-star",
       },
       {
-        color: "#ed510f",
-        icon: "mdi-star",
-      },
-      {
-        color: "#ed510f",
+        color: "#ED510F",
         icon: "mdi-star",
       },
     ],

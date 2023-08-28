@@ -24,14 +24,26 @@
 </template>
 
 <style scoped>
-.icon-wrapper{
+.icon-wrapper {
     display: flex;
     align-items: center;
     padding: 0px;
     justify-content: flex-end;
 }
-.my-social-icon{
+
+.my-social-icon {
     padding: 0 8px;
     cursor: pointer;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .icon-wrapper {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .my-social-icon {
+        padding: 8px;
+    }
 }
 </style>

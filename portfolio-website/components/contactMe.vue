@@ -50,7 +50,7 @@
   padding: 48px 36px !important;
   height: 140vh;
   max-width: 90%;
-  background-color: #292828;
+  background-color: #EEE0C9;
 }
 .about-me-card-contents {
   display: flex;
@@ -106,13 +106,13 @@ img {
   font-size: 24px;
   font-weight: 600;
   line-height: 28px;
-  color: #ed510f;
+  color: #ED510F;
 }
 .about-me-title {
   font-size: 32px;
   font-weight: 700;
   line-height: 36px;
-  color: #ffffff;
+  color: #333333;
   padding: 16px 0px;
 }
 .about-me-short-description {

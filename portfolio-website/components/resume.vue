@@ -5,21 +5,30 @@
       <h3>Combination of Skills & Experience</h3>
     </div>
     <!------------------------------------------>
-    <div class="resume-contents ">
+    <div class="resume-contents">
       <div class="resume-contents-left">
         <div class="resume-content-heading">
           <IconsConcentricCircles />
           <h5>Education</h5>
         </div>
+
         <div class="resume-content-sub-heading">
           <div class="resume-content-sub-heading-education">
-            <span class="resume-content-sub-heading-education-text"
-              >B.Tech. Computer Science Engineering</span
-            ><br />
+            <div class="heading-and-year">
+              <span class="resume-content-sub-heading-education-text"
+                >B.Tech. Computer Science Engineering</span
+              ><ResumeComponentsChipResumeButtons label="2021-25 " />
+            </div>
             <h6>Mody University Of Science & Technology</h6>
+            <h6>
+              I'm actively pursuing a deep understanding of programming
+              languages, algorithms, and software development methodologies. My
+              goal and aim is to leverage this knowledge to contribute to
+              innovative projects and develop efficient solutions that address
+              real-world challenges.
+            </h6>
             <h6>CGPA: 8.16 (till IV Semester)</h6>
           </div>
-          <ResumeComponentsChipResumeButtons label="2021-25" />
         </div>
 
         <div class="resume-content-sub-heading">
@@ -65,10 +74,6 @@
               development.
             </h6>
             <h6>
-              - Collaborated on integrating Nuxt.js for server-side rendering,
-              enhancing website performance and SEO optimization.
-            </h6>
-            <h6>
               - Strengthened front-end development skills while contributing to
               real-world projects and staying updated with industry trends.
             </h6>
@@ -108,69 +113,18 @@
           <ResumeComponentsSkillSets />
         </div>
         <br />
-
         <v-divider dark></v-divider>
 
         <div class="resume-content-heading">
           <IconsConcentricCircles />
-          <h5>Extracurriculars</h5>
+          <h5>Achievements</h5>
         </div>
-     
         <div class="resume-content-sub-heading">
-          <div class="resume-content-sub-heading-education">
-            <div class="heading-and-year">
-              <h6>2nd Runner-Up</h6>
-              <ResumeComponentsChipResumeButtons label="January 2023" />
-            </div>
-            <h6>
-              in College-Mini-Vlog making Competition organized at University
-              level.
-            </h6>
-          </div>
+          <ResumeComponentsAchievements />
         </div>
-
-        <div class="resume-content-sub-heading">
-          <div class="resume-content-sub-heading-education">
-            <div class="heading-and-year">
-              <h6>Winner</h6>
-              <ResumeComponentsChipResumeButtons label="November 2022" />
-            </div>
-            <h6>
-              Group Discussion Topic "Metaverse" organized by the IEEE MUST Chapter.
-            </h6>
-          </div>
-        </div>
-
-        <div class="resume-content-sub-heading">
-          <div class="resume-content-sub-heading-education">
-            <div class="heading-and-year">
-              <h6>Awarded with High Recommendation</h6>
-              <ResumeComponentsChipResumeButtons label="2019" />
-            </div>
-            <h6>
-              Model United Nations (MUN) organised by United Nationalist of India.
-            </h6>
-          </div>
-        </div>
-
-        <div class="resume-content-sub-heading">
-          <div class="resume-content-sub-heading-education">
-            <h6>
-              Participated in various Debate, Chess,
-              Art, Craft & Painting competitions, Group Disussions, Hackathons &
-              Quizes.
-            </h6>
-          </div>
-        </div>
+        <br /><v-divider dark></v-divider><br />
       </div>
     </div>
-    <br /><v-divider dark></v-divider><br />
-    
-    <div class="resume-content-heading">
-      <IconsConcentricCircles />
-      <h5>Achievements</h5>
-    </div>
-    <ResumeComponentsAchievements />
   </v-card>
 </template>
 
@@ -181,7 +135,7 @@
   padding: 48px 36px !important;
   max-height: 540vh;
   max-width: 90%;
-  background-color: #292828;
+  background-color: #eee0c9;
 }
 .resume-heading {
   display: block;
@@ -197,7 +151,7 @@ h3 {
   font-weight: 700;
   line-height: 42px;
   width: 370px;
-  color: #ffffff;
+  color: #333333;
   padding: 8px 0px;
 }
 
@@ -212,7 +166,7 @@ h5 {
   font-size: 38px;
   font-weight: 700;
   line-height: 42px;
-  color: #e5e5e5;
+  color: #ed510f;
   padding: 8px 8px;
 }
 .resume-content-sub-heading {
@@ -227,13 +181,13 @@ h5 {
   font-size: 24px;
   font-weight: 500;
   line-height: 28px;
-  color: #e5e5e5;
+  color: #333333;
 }
 h6 {
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 20px;
-  color: #e5e5e5;
+  color: #3e3d3d;
   padding: 4px 0px;
 }
 .heading-and-year {
@@ -247,10 +201,10 @@ h6 {
 }
 @media only screen and (min-width: 1200px) {
   .resume-contents {
-  padding-top: 64px;
-  display: flex;
-  justify-content: space-evenly;
-}
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 @media (max-width: 480px) {
   .about-me-card {
@@ -288,6 +242,14 @@ h6 {
   h6 {
     font-size: 12px;
     padding: 2px 0;
+  }
+}
+@media (max-width: 480px) {
+  .resume-contents-right {
+    padding: 0px;
+  }
+  .resume-content-sub-heading {
+    display: block;
   }
 }
 </style>

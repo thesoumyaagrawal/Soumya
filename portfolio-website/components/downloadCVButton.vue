@@ -36,7 +36,7 @@ export default {
   },
   computed: {
     buttonStyle() {
-      return this.isActive ? { 'border': '2px solid #94F3E4' } : {};
+      return this.isActive ? { 'border': '2px solid #FAF1E4' } : {};
     },
   },
   methods: {
@@ -59,10 +59,10 @@ export default {
   border-radius: 16px;
 }
 .title-buttons.active {
-  background-color: #074A4B !important;
+  background-color: #DAC0A3 !important;
 }
 .title-buttons:hover{
-    background-color: #074A4B !important;
+    background-color: #DAC0A3 !important;
 }
 .title-buttons .title-button-text {
   display: inline-block;

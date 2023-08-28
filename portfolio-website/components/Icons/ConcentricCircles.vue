@@ -4,7 +4,7 @@
 <g clip-path="url(#clip0_101_4)">
 <rect width="26" height="26" fill=""/>
 <circle cx="13" cy="13" r="13" fill="#ED510F"/>
-<circle cx="13" cy="13" r="11" fill="#292828"/>
+<circle cx="13" cy="13" r="11" fill="#EEE0C9"/>
 <circle cx="13" cy="13" r="5" fill="#ED510F"/>
 </g>
 <defs>

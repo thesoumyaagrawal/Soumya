@@ -39,7 +39,7 @@ export default {
 
 <style scoped>
 .v-application {
-  background-color: #1C1C1C;
+  background-color: #F1F0E8;
 }
 .blue-rectangle {
   position: absolute;
@@ -48,7 +48,7 @@ export default {
   width: 75%;
   height: 100vh;
   transform: skewX(-15deg) skewY(-10deg);
-  background-color: #292828; 
+  background-color: #EEE0C9; 
 }
 .simple-shape-1 { 
   position: absolute;

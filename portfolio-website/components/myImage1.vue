@@ -24,7 +24,7 @@ img{
     content: "";
     width: 257px;
     height: 415px;
-    background-color: #074A4B;
+    background-color: #DAC0A3;
     transform: rotate(-50deg);
     animation: animeRotate 13s linear 0s infinite alternate;
     animation-name: animeRotate;
