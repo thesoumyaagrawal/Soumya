@@ -3,11 +3,11 @@
     id="btn"
     elevation="2"
     class="title-buttons text-capitalize"
-    :class="{ 'active': isActive }"
+    :class="{ active: isActive }"
     :style="buttonStyle"
     :height="height"
     :color="color"
-    @click="btnClicked"
+    @click="downloadSampleXLS()"
   >
     <span class="title-button-text">{{ label }}</span>
   </v-btn>
@@ -36,13 +36,22 @@ export default {
   },
   computed: {
     buttonStyle() {
-      return this.isActive ? { 'border': '2px solid #FAF1E4' } : {};
+      return this.isActive ? { border: "2px solid #FAF1E4" } : {};
     },
   },
   methods: {
-    btnClicked() {
-      this.isActive = !this.isActive;
-      this.$emit('buttonClicked');
+    downloadSampleXLS() {
+      const sampleImageFileURL = "../assets/Images/CollegeWordCloud.png";
+const downloadLink = document.createElement('a');
+downloadLink.href = sampleImageFileURL;
+downloadLink.download = 'CollegeWordCloud.png'; // Make sure the filename includes the correct extension
+
+document.body.appendChild(downloadLink);
+downloadLink.click();
+
+// Remove the link element from the DOM after the download
+document.body.removeChild(downloadLink);
+
     },
   },
 };
@@ -59,16 +68,16 @@ export default {
   border-radius: 16px;
 }
 .title-buttons.active {
-  background-color: #DAC0A3 !important;
+  background-color: #dac0a3 !important;
 }
-.title-buttons:hover{
-    background-color: #DAC0A3 !important;
+.title-buttons:hover {
+  background-color: #dac0a3 !important;
 }
 .title-buttons .title-button-text {
   display: inline-block;
   vertical-align: top;
   padding: 0px 32px;
-  color: #FFFFFF;
+  color: #ffffff;
   white-space: nowrap;
   line-height: 21px;
   font-weight: 600;

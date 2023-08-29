@@ -1,5 +1,5 @@
 <template>
-    
+    <div>
    <v-app dark class="app-container">
     <v-main>
       <div class="blue-rectangle"></div>
@@ -21,6 +21,8 @@
       </v-container>
     </v-main>
   </v-app>
+  <!-- <loader v-if="showloader"/> -->
+</div>
 
 </template>
 
@@ -32,6 +34,14 @@ export default {
   components: {
     PerfectScrollbar,
   },
+  data(){
+    return {
+      showloader: false,
+    };
+  },
+  mounted(){
+    this.showloader=true;
+  }
 }
 </script>
 

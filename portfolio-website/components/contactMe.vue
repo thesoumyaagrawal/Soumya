@@ -10,34 +10,23 @@
 
       <div class="about-me-card-contents">
         <div class="about-me-left">
-        <div class="about-me-heading">Contact Me</div>
         <div class="about-me-title">
-          Contact Me to get your Work Done.
+        <IconsMailMe />
+        </div>
+        <div class="about-me-title">
+        <IconsMailMe />
+        </div>
+        <div class="about-me-title">
+        <IconsLocation />
         </div>
       </div>
       <div class="about-me-right">
-        <div class="about-me-heading">About Me</div>
-        <div class="about-me-title">
-          Innovating Code for Futuristic Solutions.
-        </div>
-        <div class="about-me-short-description">
-          A Passionate Software & Web Developer based In India.
-        </div>
+        <div class="about-me-heading"></div>
         <div class="about-me-paragraph">
-          <p>Hello There! I am Soumya Agrawal, a vibrant and imaginative individual
-          from the captivating land of India.</p> 
-          <p id="element">As a web developer, I find community
-          engagement to be a significant aspect close to my heart. I firmly
-          believe in giving back to society and making a positive impact on the
-          lives of others.</p>
-         <p>In this
-          dynamic journey of life, I'm always eager to meet new people and share
-          my experiences. I look forward to the opportunity to connect with you
-          on this path, where technology and creativity intertwine to shape
-          remarkable digital experiences.</p>
+         
         </div>
         <div class="about-me-download">
-          <downloadCVButton />
+         <!--resumebutton tha-->
         </div>
       </div>
     </div>
