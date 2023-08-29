@@ -1,5 +1,6 @@
 <template>
     <div>
+      <loader v-if="showloader"/>
    <v-app dark class="app-container">
     <v-main>
       <div class="blue-rectangle"></div>
@@ -21,7 +22,6 @@
       </v-container>
     </v-main>
   </v-app>
-  <!-- <loader v-if="showloader"/> -->
 </div>
 
 </template>

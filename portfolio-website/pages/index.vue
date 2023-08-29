@@ -1,18 +1,18 @@
 <template>
   <div>
+    <a href="#" id="top-anchor" style="position: absolute; top: 0;"></a>
     <div class="heading">
       <socialicons />
     </div>
     <div class="home-page">
       <div class="left">
         <intro />
-
         <div class="buttons-wrapper">
           <div
             class="container"
             :class="{ active: activeButton === 'About Me' }"
           >
-            <a href="#element">
+            <a href="#about">
               <titleButtons
                 label="About Me"
                 :isActive="activeButton === 'About Me'"
@@ -129,7 +129,8 @@
       </div>
     </div>
 
-    <div id="element">
+<div>
+    <div id="about">
       <aboutMe v-show="activeButton === 'About Me'" />
     </div>
     <div id="resume">
@@ -144,6 +145,9 @@
     <div id="projects">
       <projects v-show="activeButton === 'Projects'" />
     </div>
+  </div>
+
+
   </div>
 </template>
 

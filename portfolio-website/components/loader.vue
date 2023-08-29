@@ -33,7 +33,6 @@ export default {
 
       setTimeout(() => {
         intro.style.top = '-100vh';
-        
       }, 3500);
     }, 0); // Delay of 0ms to ensure Vue initialization
   },
@@ -83,8 +82,8 @@ export default {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 64px;
-  line-height: 72px;
+  font-size: 52px;
+  line-height: 62px;
   transform: translate(-50%, -50%);
   color: black;
   }

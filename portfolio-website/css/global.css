@@ -29,7 +29,6 @@ body {
 body::-webkit-scrollbar {
   display: none; /* For Chrome, Safari, and Opera */
 }
-
 /* Add this CSS to hide the default scrollbar in the .app-container */
 .app-container {
   overflow: hidden;

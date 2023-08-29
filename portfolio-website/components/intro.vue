@@ -43,7 +43,7 @@ h3 {
   line-height: 24px;
   padding-left: 64px;
   padding-top: 16px;
-  color: #8d8787;
+  color: #4c4b4b;
 }
 
 /* Adjust for screens between 300px and 480px */
