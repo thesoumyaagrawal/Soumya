@@ -17,8 +17,7 @@
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10",
     "vue2-perfect-scrollbar": "^1.5.56",
-    "vuetify": "^2.6.10",
-    "vuex": "^4.0.2"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.12.3"
