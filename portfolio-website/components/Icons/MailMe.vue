@@ -1,7 +1,7 @@
 <template>
   <svg
-    width="120"
-    height="120"
+    :width="svgWidth"
+    :height="svgHeight"
     viewBox="0 0 120 120"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -34,5 +34,34 @@
 <script>
 export default {
   name: "IconsMailMe",
+  data() {
+    return {
+      svgWidth: 120, // Default width
+      svgHeight: 120, // Default height
+    };
+  },
+  mounted() {
+    if (window.innerWidth <= 600) {
+      this.svgWidth = 75; // Update width
+      this.svgHeight = 75; // Update height
+    }
+  },
+  created() {
+    window.addEventListener("resize", this.handleResize);
+  },
+  beforeDestroy() {
+    window.removeEventListener("resize", this.handleResize);
+  },
+  methods: {
+    handleResize() {
+      if (window.innerWidth <= 600) {
+        this.svgWidth = 75; // Update width
+        this.svgHeight = 75; // Update height
+      } else {
+        this.svgWidth = 120; // Reset width
+        this.svgHeight = 120; // Reset height
+      }
+    },
+  },
 };
 </script>

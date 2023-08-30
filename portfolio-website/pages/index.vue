@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="#" id="top-anchor" style="position: absolute; top: 0;"></a>
+    <a href="#top-anchor" id="top-anchor" style="position: absolute; top: 0;"></a>
     <div class="heading">
       <socialicons />
     </div>
@@ -167,6 +167,11 @@ export default {
       this.activeButton = null; // Deactivate the previous button
     },
   },
+  mounted(){
+    this.$router.push({
+          name: '',
+        })
+  }
 };
 </script>
 

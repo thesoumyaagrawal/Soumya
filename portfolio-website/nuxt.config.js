@@ -23,7 +23,6 @@ export default {
     ]
   },
 
-
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/css/global.css',
@@ -45,6 +44,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     'vue-scrollto/nuxt',
+    ['vue-scrollto/nuxt', { duration: 300 }],
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify

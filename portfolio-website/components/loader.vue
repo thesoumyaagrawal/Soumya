@@ -77,15 +77,17 @@ export default {
   opacity: 0;
   transition: ease-in-out 0.5s;
 }
-@media (max-width: 480px) {
+
+@media (max-width: 600px) {
   .logo-header {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 52px;
-  line-height: 62px;
-  transform: translate(-50%, -50%);
-  color: black;
+    font-size: 36px; /* Adjust the font size */
+    line-height: initial; /* Remove line-height */
+  }
+}
+
+@media (max-width: 420px) {
+  .logo-header {
+    font-size: 30px; /* Adjust the font size */
   }
 }
 </style>

@@ -89,12 +89,7 @@
             <h6>Google Developer's Student Club, MUST</h6>
             <h6>
               - Led competitive Programming club, organized competitions,
-              conducted CP sessions, mentored juniors and peers to enhance
-              coding skills.
-            </h6>
-            <h6>
-              - Played key role in driving educational initiatives, showcasing
-              leadership and organizational skills.
+              conducted CP sessions.
             </h6>
             <h6>
               - Played key role in driving educational initiatives, showcasing

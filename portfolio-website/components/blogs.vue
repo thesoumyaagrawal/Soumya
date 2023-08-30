@@ -180,7 +180,7 @@ And that, my friends, was my 'spectacular' first day. Cue the confetti and firew
   font-size: 32px;
   font-weight: 700;
   line-height: 36px;
-  color: #ffffff;
+  color: #333333;
   padding: 16px 0px;
 }
 </style>

@@ -48,11 +48,11 @@ export default {
           title: "Programming",
         },
         {
-          subtitle: `HTML5, CSS, Node.js, Express, Vue.js, Vuetify, Nuxt.js.`,
+          subtitle: `HTML5, CSS, Bootstrap, Node.js, Vue.js, Vuetify, Nuxt.js.`,
           title: "Web Technologies",
         },
         {
-          subtitle: `MySQL, MongoDB`,
+          subtitle: `MySQL`,
           title: "Database Management",
         },
         {
@@ -111,7 +111,7 @@ export default {
   border: 1px solid #3a39396c;
   border-top: none !important;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .skills-heading {
     font-size: 16px;
   }
@@ -121,7 +121,7 @@ export default {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .list-class {
     padding: 8px !important;
   }
