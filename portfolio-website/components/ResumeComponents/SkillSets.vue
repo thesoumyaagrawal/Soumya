@@ -87,6 +87,8 @@ export default {
   font-weight: 400;
   line-height: 20px;
   color: #333333;
+  text-align: justify;
+  text-align: justify;
   padding: 4px 0px;
 }
 .subtitle-text {

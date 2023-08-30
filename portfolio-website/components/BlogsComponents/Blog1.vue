@@ -137,6 +137,7 @@ export default {
   color: #333333 !important;
   font-weight: 400 !important;
   font-size: 18px;
+  text-align: justify;
   line-height: 24px;
 }
 @media screen and (max-width: 450px) {

@@ -33,6 +33,12 @@
             {{ content5 }}
             </v-card-text>
             <v-divider></v-divider><br>
+            <v-card-actions>
+            <v-spacer></v-spacer>
+            <v-btn color="#ED510F" text @click="dialog = false">
+              Close
+            </v-btn>
+          </v-card-actions>
           </v-card>
         </perfect-scrollbar>
       </v-dialog>
@@ -121,6 +127,7 @@
   .content-text{
     color: #333333 !important;
     font-weight: 400 !important;
+    text-align: justify;
     font-size: 18px;
     line-height: 24px;
   }

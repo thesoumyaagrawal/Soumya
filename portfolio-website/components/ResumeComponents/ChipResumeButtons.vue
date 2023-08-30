@@ -32,6 +32,7 @@ export default{
     min-width: 52px !important;
     padding: 4px 16px !important;
     height: 32px;
+    text-align: justify;
     text-align: center;
     border-radius: 64px !important;
 }

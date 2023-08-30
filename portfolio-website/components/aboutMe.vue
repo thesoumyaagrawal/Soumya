@@ -108,6 +108,7 @@ img {
   font-size: 18px;
   font-weight: 400 !important;
   letter-spacing: 0.0125em;
+  text-align: justify;
   line-height: 21px;
   padding: 4px 0 4px 0 !important;
   color: #e3d5d5 !important;
@@ -117,6 +118,7 @@ img {
   font-size: 18px;
   font-family: "heebo";
   font-weight: 400;
+  text-align: justify;
   padding: 0px 0px 4px 0;
   line-height: 21px;
   color: #e3dbdb;
@@ -127,7 +129,7 @@ img {
 }
 .about-me-heading {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 600;text-align: justify;
   line-height: 28px;
   color: #ED510F;
 }
@@ -143,13 +145,16 @@ img {
   font-weight: 300;
   line-height: 26px;
   color: #ED510F;
+  text-align: justify;
   padding: 16px 0px;
+
 }
 .about-me-paragraph{
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   color: #333333;
+  text-align: justify;
   padding: 16px 0px;
 }
 @media screen and (max-width: 768px) {

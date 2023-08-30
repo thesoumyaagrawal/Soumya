@@ -183,6 +183,7 @@ h6 {
   font-weight: 400;
   line-height: 20px;
   color: #3e3d3d;
+  text-align: justify;
   padding: 4px 0px;
 }
 .heading-and-year {
