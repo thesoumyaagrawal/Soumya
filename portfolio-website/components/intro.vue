@@ -40,7 +40,6 @@ h3 {
   font-size: 20px;
   font-family: "open-sans";
   font-weight: 400;
-  text-align: justify;
   line-height: 24px;
   padding-left: 64px;
   padding-top: 16px;

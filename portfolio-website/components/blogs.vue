@@ -106,15 +106,12 @@ And that, my friends, was my 'spectacular' first day. Cue the confetti and firew
             />
           </v-col>
 
-          <v-col cols="12" md="4">
+          <!-- <v-col cols="12" md="4">
             <BlogsComponentsBlog1
               label="Everything's New: The Excitement of Day-1"
               url="ArtWordCloud.png">
-              <template #gallery>
-                     <gallery />
-              </template>
               </BlogsComponentsBlog1>
-          </v-col>
+          </v-col> -->
         </v-row>
       </v-container> </v-item-group><br />
   </v-card>

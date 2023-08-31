@@ -24,10 +24,6 @@
       </template>
       <perfect-scrollbar dark>
         <v-card color="#FEFAE0" class="blog-card-content">
-          <v-img
-            height="250"
-            src="https://cdn.vuetifyjs.com/images/cards/cooking.png"
-          ></v-img>
           <slot name="gallery"></slot>
           <v-card-text class="content-text">
           {{ content1 }}<br><br>
