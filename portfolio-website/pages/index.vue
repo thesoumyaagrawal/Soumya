@@ -82,7 +82,7 @@
             </a>
           </div>
 
-          <div
+          <!-- <div
             class="container"
             :class="{ active: activeButton === 'Impressions' }"
           >
@@ -99,7 +99,7 @@
                 />
               </template>
             </titleButtons>
-          </div>
+          </div> -->
 
           <div
             class="container"

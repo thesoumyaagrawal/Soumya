@@ -1,4 +1,6 @@
 <template>
+  <a href="https://twitter.com/hashtagsoumya" target="_blank"
+    rel="noopener noreferrer">
   <svg
     width="38"
     height="33"
@@ -11,6 +13,7 @@
       fill="#1D9BF0"
     />
   </svg>
+</a>
 </template>
 
 <script>

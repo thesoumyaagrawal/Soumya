@@ -39,6 +39,7 @@
               Close
             </v-btn>
           </v-card-actions>
+          <br>
           </v-card>
         </perfect-scrollbar>
       </v-dialog>

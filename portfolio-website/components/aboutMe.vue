@@ -3,7 +3,7 @@
     <div class="about-me-card-contents">
       <div class="about-me-left">
         <v-card class="imgcard" elevation="8" color="transparent">
-          <img src="../assets/Images/photo2.jpg" />
+          <img src="../assets/Images/mtpic.jpg"/>
         </v-card>
         <v-card class="about-me-intro-card" elevation="4">
           <div class="about-me-intro-card-wrapper">

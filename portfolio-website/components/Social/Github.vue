@@ -1,4 +1,5 @@
 <template>
+    <a href="https://github.com/thesoumyaagrawal" target="_blank" rel="noopener noreferrer">
   <svg
     width="33"
     height="33"
@@ -11,6 +12,7 @@
       fill="black"
     />
   </svg>
+</a>
 </template>
 
 <script>

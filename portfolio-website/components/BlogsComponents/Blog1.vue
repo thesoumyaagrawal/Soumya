@@ -41,10 +41,10 @@
           <v-card-actions>
             <v-spacer></v-spacer>
             <span class="action-text">Was it Insightful ?</span>
-            <v-btn color="#ED510F" text @click="dialog = false">
+            <v-btn min-width="32px" color="#ED510F" text @click="dialog = false">
               Yes.
             </v-btn>
-            <v-btn color="#ED510F" text @click="dialog = false">
+            <v-btn min-width="32px" color="#ED510F" text @click="dialog = false">
               No.
             </v-btn>
           </v-card-actions>
@@ -109,8 +109,8 @@ export default {
 <style scoped>
 .action-text{
     font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 21px;
     padding-right: 8px;
 }
 .ps {
