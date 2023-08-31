@@ -1,4 +1,5 @@
 <template>
+<div>
   <v-btn
     id="btn"
     elevation="2"
@@ -11,6 +12,7 @@
   >
     <span class="title-button-text">{{ label }}</span>
   </v-btn>
+</div>
 </template>
 
 <script>
@@ -40,20 +42,20 @@ export default {
     },
   },
   methods: {
-    downloadSampleXLS() {
-      const sampleImageFileURL = "../assets/Images/CollegeWordCloud.png";
-const downloadLink = document.createElement('a');
-downloadLink.href = sampleImageFileURL;
-downloadLink.download = 'CollegeWordCloud.png'; // Make sure the filename includes the correct extension
+  downloadSampleXLS() {
+    const sampleImageFileURL = require('../assets/ResumeFile/Soumya_Agrawal_Resume.pdf');
+    const downloadLink = document.createElement('a');
+    downloadLink.href = sampleImageFileURL.default; // Access the default export from the required module
+    downloadLink.download = 'Soumya_Agrawal_Resume.pdf'; // Correct the filename
 
-document.body.appendChild(downloadLink);
-downloadLink.click();
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
 
-// Remove the link element from the DOM after the download
-document.body.removeChild(downloadLink);
-
-    },
+    // Remove the link element from the DOM after the download
+    document.body.removeChild(downloadLink);
   },
+},
+
 };
 </script>
 
