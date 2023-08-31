@@ -33,7 +33,6 @@
 
 .my-social-icon {
     padding: 0 8px;
-    cursor: pointer;
 }
 
 /* Media Queries for Responsiveness */
