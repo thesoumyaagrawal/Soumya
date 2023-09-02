@@ -3,7 +3,7 @@
     <div class="about-me-card-contents">
       <div class="about-me-left">
         <v-card class="imgcard" elevation="8" color="transparent">
-          <img src="../assets/Images/mtpic.jpg"/>
+          <img src="../assets/Images/photo2.jpg"/>
         </v-card>
         <v-card class="about-me-intro-card" elevation="4">
           <div class="about-me-intro-card-wrapper">
@@ -72,24 +72,17 @@
   max-width: 90%;
   background-color: #EEE0C9;
 }
-.about-me-card-contents {
+.about-me-card-contents , .about-me-left  {
   display: flex;
 }
-.about-me-left {
-  display: flex;
-}
-.imgcard {
-  height: 400px;
-  width: auto;
-}
-img {
+.imgcard, img {
   height: 400px;
   width: auto;
 }
 .about-me-intro-card {
   height: 400px;
   position: relative;
-  min-width: 30% !important;
+  min-width: 20% !important;
   left: -30px;
   margin-top: 205px;
   background-color: #ff451b;
@@ -102,13 +95,11 @@ img {
   padding: 8px 0px;
 }
 .v-card__title {
-  align-items: flex-start !important;
-  display: flex;
-  flex-wrap: wrap;
   font-size: 18px;
   font-weight: 400 !important;
   letter-spacing: 0.0125em;
   text-align: justify;
+  text-justify: inter-word;
   line-height: 21px;
   padding: 4px 0 4px 0 !important;
   color: #e3d5d5 !important;
@@ -119,6 +110,7 @@ img {
   font-family: "heebo";
   font-weight: 400;
   text-align: justify;
+  text-justify: inter-word;
   padding: 0px 0px 4px 0;
   line-height: 21px;
   color: #e3dbdb;
@@ -130,6 +122,7 @@ img {
 .about-me-heading {
   font-size: 24px;
   font-weight: 600;text-align: justify;
+  text-justify: inter-word;
   line-height: 28px;
   color: #ED510F;
 }
@@ -146,6 +139,7 @@ img {
   line-height: 26px;
   color: #ED510F;
   text-align: justify;
+  text-justify: inter-word;
   padding: 16px 0px;
 
 }
@@ -155,6 +149,7 @@ img {
   line-height: 24px;
   color: #333333;
   text-align: justify;
+  text-justify: inter-word;
   padding: 16px 0px;
 }
 @media screen and (max-width: 768px) {
@@ -213,7 +208,7 @@ img {
   .about-me-paragraph {
     font-size: 16px;
     line-height: 20px;
-    padding: 8px 0;
+    padding: 8px 8px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -274,5 +269,33 @@ img {
     line-height: 20px;
     padding: 8px 0;
   }
+}
+@media screen and (min-width: 1025px) and (max-width: 1265px) {
+  .v-card__title {
+  font-size: 16px;
+  line-height: 19px;
+}
+.about-me-intro-card-content {
+  font-size: 18px;
+  line-height: 21px;
+}
+.imgcard,
+  img {
+    height: auto;
+    width: 100%;
+  }
+.about-me-intro-card {
+  height: 400px;
+  position: relative;
+  left: 0px;
+  margin-top: 4px;
+  background-color: #ff451b;
+  padding: 20px 24px;
+  z-index: 1;
+  border-radius: 4px;
+}
+.about-me-left  {
+  display: block;
+}
 }
 </style>
