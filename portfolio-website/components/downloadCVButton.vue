@@ -47,7 +47,6 @@ export default {
     const downloadLink = document.createElement('a');
     downloadLink.href = sampleImageFileURL.default; // Access the default export from the required module
     downloadLink.download = 'Soumya_Agrawal_Resume.pdf'; // Correct the filename
-
     document.body.appendChild(downloadLink);
     downloadLink.click();
 
