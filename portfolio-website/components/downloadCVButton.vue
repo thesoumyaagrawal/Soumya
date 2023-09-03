@@ -43,7 +43,7 @@ export default {
   },
   methods: {
   downloadSampleXLS() {
-    const sampleImageFileURL = require('../assets/ResumeFile/Soumya_Agrawal_Resume.pdf');
+    const sampleImageFileURL = require('../assets/Resume/Soumya_Agrawal_Resume.pdf');
     const downloadLink = document.createElement('a');
     downloadLink.href = sampleImageFileURL.default; // Access the default export from the required module
     downloadLink.download = 'Soumya_Agrawal_Resume.pdf'; // Correct the filename
