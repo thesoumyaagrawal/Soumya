@@ -35,8 +35,7 @@
             practice. His courteous support proved invaluable. Despite
             subsequent rejection, conversations with loved ones emphasized
             resilience. Recognizing their motivation lifted my spirits. After a
-            brief emotional pause, I committed to redoubling efforts, pursuing
-            aspirations unwaveringly."
+            brief emotional pause, I committed to redoubling the efforts."
             />
           </v-col>
 

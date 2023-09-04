@@ -41,6 +41,10 @@ h3 {
   font-family: "open-sans";
   font-weight: 400;
   line-height: 24px;
+  text-align: justify;
+text-justify: distribute;
+text-align-last: left;
+  margin-right: 16px;
   padding-left: 64px;
   padding-top: 16px;
   color: #4c4b4b;

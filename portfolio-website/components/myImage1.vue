@@ -50,8 +50,8 @@ img{
   }
 
   .rectangle {
-    width: 100px;
-    height: 160px;
+    width: 180px;
+    height: 260px;
   }
   img{
     height: 250px;

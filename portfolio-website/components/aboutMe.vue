@@ -153,7 +153,7 @@
   color: #333333;
   text-align: justify;
   text-justify: inter-word;
-  padding: 16px 0px;
+  padding: 16px 0px ;
 }
 @media screen and (max-width: 768px) {
   .about-me-card {
@@ -237,7 +237,7 @@
   }
   
   .about-me-right {
-    padding-left: 16px;
+    padding-left: 0px;
   }
   
   .imgcard,

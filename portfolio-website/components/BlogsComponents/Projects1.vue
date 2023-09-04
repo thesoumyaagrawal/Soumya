@@ -129,18 +129,32 @@
     color: #333333 !important;
     font-weight: 400 !important;
     text-align: justify;
+  word-spacing: -2px;
+  word-break: normal;
     font-size: 18px;
     line-height: 24px;
   }
-  @media screen and (max-width: 450px) {
-    img{
-      width: 170px;
-    }
-  }
   @media screen and (max-width: 1250px) {
     img{
-      width: 250px;
+      width: 212px;
     }
+    @media screen and (min-width: 895px) and (max-width: 960px) {
+    img{
+      width: 690px;
+      height: auto;
+    }
+  }
+    @media screen and (max-width: 450px) {
+    img{
+      width: 220px;
+    }
+  }
+  @media screen and (max-width: 390px) {
+    img{
+      width: 160px;
+      height: 160px;
+    }
+  }
   }
   </style>
   

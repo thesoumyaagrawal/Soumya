@@ -248,4 +248,12 @@ h6 {
     display: block;
   }
 }
+@media (max-width: 390px) {
+  .resume-contents-right {
+    padding: 0px;
+  }
+  .resume-content-sub-heading {
+    display: block;
+  }
+}
 </style>
