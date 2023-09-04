@@ -21,7 +21,9 @@
         </div>
       </div>
       <div class="about-me-right">
-        <div class="about-me-heading"></div>
+        <div class="about-me-heading">
+          <Form> </Form>
+        </div>
         <div class="about-me-paragraph">
          
         </div>

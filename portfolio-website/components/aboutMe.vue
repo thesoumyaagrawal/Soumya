@@ -2,8 +2,8 @@
   <v-card class="mx-auto my-12 about-me-card">
     <div class="about-me-card-contents">
       <div class="about-me-left">
-        <v-card class="imgcard" elevation="8" color="transparent">
-          <img src="../assets/Images/photo2.jpg"/>
+        <v-card class="imgcard" elevation="0" color="transparent">
+          <img src="../assets/Images/Soumyapic.jpg"/>
         </v-card>
         <v-card class="about-me-intro-card" elevation="4">
           <div class="about-me-intro-card-wrapper">
@@ -78,6 +78,9 @@
 .imgcard, img {
   height: 400px;
   width: auto;
+}
+.imgcard{
+  border-radius: 12px !important;
 }
 .about-me-intro-card {
   height: 400px;
