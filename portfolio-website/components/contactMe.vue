@@ -12,12 +12,24 @@
         <div class="about-me-left">
         <div class="about-me-title">
         <IconsMailMe />
+        <div class="icon-text">
+        <span>Mail-ID-1</span><br>
+        <span>iamsoumyaagrawal@gmail.com</span>
+      </div>
         </div>
         <div class="about-me-title">
         <IconsMailMe />
+        <div class="icon-text">
+        <span>Mail-ID-2</span><br>
+        <span>soumyaagrawal21.set@modyuniversity.ac.in</span>
+      </div>
         </div>
         <div class="about-me-title">
         <IconsLocation />
+        <div class="icon-text">
+        <span>Location</span><br>
+        <span>Rajasthan,INDIA.</span>
+      </div>
         </div>
       </div>
       <div class="about-me-right">
@@ -91,7 +103,7 @@ img {
 }
 .about-me-right {
   display: inline;
-  padding-left: 42px;
+  padding-left: 24px;
 }
 .about-me-heading {
   font-size: 24px;
@@ -103,6 +115,8 @@ img {
   font-size: 32px;
   font-weight: 700;
   line-height: 36px;
+  display: flex;
+   
   color: #333333;
   padding: 16px 0px;
 }
@@ -119,6 +133,15 @@ img {
   line-height: 24px;
   color: #F5F5F5;
   padding: 16px 0px;
+}
+.icon-text{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #333333;
+  margin: auto 0px;
+  padding: 0px 8px;
+
 }
 @media screen and (max-width: 768px) {
   .about-me-card {
