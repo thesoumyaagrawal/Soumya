@@ -65,7 +65,7 @@
             <div class="heading-and-year">
               <span class="resume-content-sub-heading-education-text"
                 >Web-Developer Intern</span
-              ><ResumeComponentsChipResumeButtons label="June'23 - August'23" />
+              ><ResumeComponentsChipResumeButtons label="Jun'23 - Aug'23" />
             </div>
             <h6>GIM Info Solutions Private Limited</h6>
             <h6>

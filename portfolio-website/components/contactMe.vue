@@ -6,7 +6,7 @@
         <div class="about-me-title">
           Contact Me to get your Work Done.
         </div>
-      </div><br><br>
+      </div>
 
       <div class="about-me-card-contents">
         <div class="about-me-left">
@@ -51,7 +51,7 @@
 .about-me-card {
   border-radius: 16px !important;
   padding: 48px 36px !important;
-  height: 140vh;
+  height: 120vh;
   max-width: 90%;
   background-color: #EEE0C9;
 }
