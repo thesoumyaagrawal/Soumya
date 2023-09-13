@@ -1,6 +1,5 @@
 const express = require('express');
 const mongodb = require('mongodb');
-
 const router = express.Router();
 
 // Get Posts
@@ -11,25 +10,33 @@ router.get('/', async (req, res) => {
 
 // Add Post
 router.post('/', async (req, res) => {
+    console.log("api request called");
     const posts = await loadPostsCollection();
     await posts.insertOne({
-        text: req.body.text,
+        name: req.body.name,
+        profession: req.body.profession,
+        comment: req.body.comment,
+        gender: req.body.gender,
         createdAt: new Date()
     });
+    console.log(req.body);
+    console.log("data inserted successfully");
     res.status(201).send();
 });
 
 // Delete Post
 router.delete('/:id', async (req, res) => {
-    // Add logic to delete a post with the specified ID from the database here
-    // You can access the post ID using req.params.id
 });
 
 async function loadPostsCollection() {
-    const client = await mongodb.MongoClient.connect('mongodb+srv://soumya:soumya@cluster0.abraxr5.mongodb.net/?retryWrites=true&w=majority', {
-        useNewUrlParser: true
-    });
-    return client.db('impressions').collection('posts');
+    try {
+        const client = await mongodb.MongoClient.connect("mongodb+srv://iamsoumyaagrawal:localhostsample@cluster0.qwkvrf0.mongodb.net/?retryWrites=true&w=majority", {
+            useNewUrlParser: true
+        });
+        return client.db('impressions').collection('posts');
+    } catch (err) {
+        console.error('Error connecting to MongoDB:', err);
+        throw err; // Rethrow the error to be handled by the caller
+    }
 }
-
 module.exports = router;

@@ -1,4 +1,6 @@
 <template>
+  <!-- data fetch -->
+  <!-- cards -->
   <v-card class="mx-auto my-12 about-me-card">
     <div class="about-me-left">
       <div class="about-me-heading">Impressions</div>
@@ -10,10 +12,7 @@
       <v-toolbar color="#ed510f">
         <v-toolbar-title class="toolbar">Discover</v-toolbar-title>
         <v-spacer> </v-spacer>
-        <v-btn class="text-capitalize add" color="">
-          <v-icon left> mdi-pencil </v-icon>
-          <span class="button-text">Add Views</span></v-btn
-        >
+       <impressionForm />
       </v-toolbar>
       <perfect-scrollbar dark>
         <v-container fluid>
@@ -41,7 +40,7 @@
 
                     <v-list-item-content>
                       <v-list-item-title>{{ card.name }}</v-list-item-title>
-                      <v-list-item-title>{{ card.profession}}</v-list-item-title>
+                      <v-list-item-title>{{ card.profession }}</v-list-item-title>
                     </v-list-item-content>
                   </v-list-item>
                 </v-card-actions>
@@ -69,49 +68,22 @@ export default {
         id: "01",
         name: "Isha Sharma",
         profession: "student",
-        message:
-          "You did a great job in making your portfolio it truly shows your skills.",
+        message:"You did a great job in making your portfolio it truly shows your skills.",
         flex: "12",
       },
       {
-        id: "01",
+        id: "02",
         name: "Isha Sharma",
         profession: "student",
-        message:
-          "You did a great job in making your portfolio it truly shows your skills.",
-        flex: "6",
+        message:"You did a great job in making your portfolio it truly shows your skills.",
+        flex: "12",
       },
       {
-        id: "01",
+        id: "03",
         name: "Isha Sharma",
         profession: "student",
-        message:
-          "You did a great job in making your portfolio it truly shows your skills.",
-        flex: "6",
-      },
-      {
-        id: "01",
-        name: "Isha Sharma",
-        profession: "student",
-        message:
-          "You did a great job in making your portfolio it truly shows your skills.",
-        flex: "4",
-      },
-      {
-        id: "01",
-        name: "Isha Sharma",
-        profession: "student",
-        message:
-          "You did a great job in making your portfolio it truly shows your skills.",
-        flex: "4",
-      },
-      {
-        id: "01",
-        name: "Isha Sharma",
-        profession: "student",
-        message:
-          "You did a great job in making your portfolio it truly shows your skills.",
-        flex: "4",
+        message:"You did a great job in making your portfolio it truly shows your skills.",
+        flex: "12",
       },
     ],
   }),

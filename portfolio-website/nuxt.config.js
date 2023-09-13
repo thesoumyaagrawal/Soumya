@@ -25,6 +25,10 @@ export default {
       {href: "https://use.fontawesome.com/releases/v5.0.13/css/all.css",rel:'stylesheet'},
     ]
   },
+  modules: ['@nuxtjs/axios'],
+  axios: {
+    baseURL: 'http://localhost:5000', // Your API server URL
+  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
