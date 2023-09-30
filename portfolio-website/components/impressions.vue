@@ -17,14 +17,14 @@
       <perfect-scrollbar dark>
         <v-container fluid>
           <v-row dense>
-            <v-col v-for="card in cards" :key="card.id" :cols="card.flex">
+            <v-col v-for="card in cards" :key="card.id" cols="12">
               <v-card color="#F1F0E8">
                 <v-card-title>
                   <IconsQuotesLeftIcon></IconsQuotesLeftIcon>
                 </v-card-title>
 
                 <v-card-text class="impression-message">
-                  {{ card.message }}
+                  {{ card.comment }}
                 </v-card-text>
                 <span class="quote-right-icon"><IconsQuotesRightIcon /> </span>
 
@@ -56,6 +56,7 @@
 <style src="vue2-perfect-scrollbar/dist/vue2-perfect-scrollbar.css" />
 
 <script>
+import axios from 'axios';
 import { PerfectScrollbar } from "vue2-perfect-scrollbar";
 
 export default {
@@ -63,30 +64,21 @@ export default {
     PerfectScrollbar,
   },
   data: () => ({
-    cards: [
-      {
-        id: "01",
-        name: "Isha Sharma",
-        profession: "student",
-        message:"You did a great job in making your portfolio it truly shows your skills.",
-        flex: "12",
-      },
-      {
-        id: "02",
-        name: "Isha Sharma",
-        profession: "student",
-        message:"You did a great job in making your portfolio it truly shows your skills.",
-        flex: "12",
-      },
-      {
-        id: "03",
-        name: "Isha Sharma",
-        profession: "student",
-        message:"You did a great job in making your portfolio it truly shows your skills.",
-        flex: "12",
-      },
-    ],
+    cards: [],
   }),
+  created() {
+    this.fetchData();
+  },
+  methods: {
+    async fetchData() {
+      try {
+        const response = await axios.get('http://localhost:5000/api/posts'); // Update the URL to match your backend API endpoint
+        this.cards = response.data; // Assuming the response is an array of card data
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    },
+  }
 };
 </script>
 
@@ -130,7 +122,7 @@ export default {
   padding: 16px 0px;
 }
 .impression-message {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   padding-bottom: 0px;
   line-height: 18px;

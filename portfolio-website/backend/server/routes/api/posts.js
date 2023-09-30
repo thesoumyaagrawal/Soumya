@@ -34,7 +34,8 @@ async function loadPostsCollection() {
             useNewUrlParser: true
         });
         return client.db('impressions').collection('posts');
-    } catch (err) {
+    }
+    catch (err) {
         console.error('Error connecting to MongoDB:', err);
         throw err; // Rethrow the error to be handled by the caller
     }
