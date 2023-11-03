@@ -49,7 +49,6 @@ export default {
     downloadLink.download = 'Soumya_Agrawal_Resume.pdf'; // Correct the filename
     document.body.appendChild(downloadLink);
     downloadLink.click();
-
     // Remove the link element from the DOM after the download
     document.body.removeChild(downloadLink);
   },

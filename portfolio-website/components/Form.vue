@@ -79,11 +79,10 @@ export default {
   sendEmail() {
     console.log("sendEmail method called"); // Add this line
     const recipientEmail = "iamsoumyaagrawal@gmail.com";
-    const subject = "Subject goes here";
-    const body = "Message body goes here";
-
+    const subject = this.subject;
+    const from_email = this.email;
+    const body = this.bio;
     const mailtoUrl = `mailto:${recipientEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
     window.open(mailtoUrl);
   }
 

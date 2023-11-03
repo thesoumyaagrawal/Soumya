@@ -82,10 +82,11 @@
             </a>
           </div>
 
-          <!-- <div
+          <div
             class="container"
             :class="{ active: activeButton === 'Impressions' }"
           >
+          <a href="#impressions">
             <titleButtons
               label="Impressions"
               :isActive="activeButton === 'Impressions'"
@@ -99,7 +100,8 @@
                 />
               </template>
             </titleButtons>
-          </div> -->
+          </a>
+          </div>
 
           <div
             class="container"
@@ -138,6 +140,9 @@
     </div>
     <div id="blogs">
       <blogs v-show="activeButton === 'Blogs'" />
+    </div>
+    <div id="impressions">
+      <impressions v-show="activeButton === 'Impressions'" />
     </div>
     <div id="contact">
       <contactMe v-show="activeButton === 'Contact Me'" />
