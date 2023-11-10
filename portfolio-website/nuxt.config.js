@@ -27,7 +27,7 @@ export default {
   },
   modules: ['@nuxtjs/axios'],
   axios: {
-    baseURL: 'http://localhost:5000', // Your API server URL
+    baseURL: 'https://soumya-agrawal-portfolio.adaptable.app', // Your API server URL
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
