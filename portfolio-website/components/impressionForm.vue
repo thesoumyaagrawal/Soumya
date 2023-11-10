@@ -104,7 +104,7 @@
       try{
         console.log("hello submit form called");
         console.log(axios.post('/api/posts',this.formData));
-        const response=await axios.post('http://localhost:5000/api/posts',this.formData);
+        const response=await axios.post('https://soumya-agrawal-portfolio.adaptable.app/api/posts',this.formData);
         console.log(response);
         //data saved successfully
       }
