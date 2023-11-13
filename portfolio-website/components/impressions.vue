@@ -72,7 +72,7 @@ export default {
   methods: {
     async fetchData() {
       try {
-        const response = await axios.get('http://localhost:5000/api/posts'); // Update the URL to match your backend API endpoint
+        const response = await axios.get('https://soumya-agrawal-portfolio.adaptable.app/api/posts'); 
         this.cards = response.data; // Assuming the response is an array of card data
       } catch (error) {
         console.error('Error fetching data:', error);

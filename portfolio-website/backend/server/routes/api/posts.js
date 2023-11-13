@@ -5,7 +5,9 @@ const router = express.Router();
 // Get Posts
 router.get('/', async (req, res) => {
     const posts = await loadPostsCollection();
+    console.log("hello diwali");
     res.send(await posts.find({}).toArray());
+    console.log(res);
 });
 
 // Add Post
