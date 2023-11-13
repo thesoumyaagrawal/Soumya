@@ -56,9 +56,7 @@
           on this path, where technology and creativity intertwine to shape
           remarkable digital experiences.</p>
         </div>
-        <div class="about-me-download">
-          <downloadCVButton />
-        </div>
+
       </div>
     </div>
   </v-card>

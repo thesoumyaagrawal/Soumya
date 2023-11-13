@@ -12,7 +12,7 @@
       <v-toolbar color="#ed510f">
         <v-toolbar-title class="toolbar">Discover</v-toolbar-title>
         <v-spacer> </v-spacer>
-       <impressionForm />
+        <impressionForm />
       </v-toolbar>
       <perfect-scrollbar dark>
         <v-container fluid>
@@ -30,7 +30,10 @@
 
                 <v-card-actions>
                   <v-list-item class="grow">
-                    <v-list-item-avatar color="grey darken-3">
+                    <v-list-item-avatar
+                      color="grey darken-3"
+                      v-if="card.gender === 'Male'"
+                    >
                       <v-img
                         class="elevation-6"
                         alt=""
@@ -38,9 +41,19 @@
                       ></v-img>
                     </v-list-item-avatar>
 
+                    <v-list-item-avatar color="grey darken-3" v-else>
+                      <v-img
+                        class="elevation-6"
+                        alt=""
+                        src="https://avataaars.io/"
+                      ></v-img>
+                    </v-list-item-avatar>
+
                     <v-list-item-content>
                       <v-list-item-title>{{ card.name }}</v-list-item-title>
-                      <v-list-item-title>{{ card.profession }}</v-list-item-title>
+                      <v-list-item-title>{{
+                        card.profession
+                      }}</v-list-item-title>
                     </v-list-item-content>
                   </v-list-item>
                 </v-card-actions>
@@ -56,7 +69,7 @@
 <style src="vue2-perfect-scrollbar/dist/vue2-perfect-scrollbar.css" />
 
 <script>
-import axios from 'axios';
+import axios from "axios";
 import { PerfectScrollbar } from "vue2-perfect-scrollbar";
 
 export default {
@@ -72,13 +85,16 @@ export default {
   methods: {
     async fetchData() {
       try {
-        const response = await axios.get('https://soumya-agrawal-portfolio.adaptable.app/api/posts'); 
-        this.cards = response.data; // Assuming the response is an array of card data
+        const response = await axios.get(
+          "https://soumya-agrawal-portfolio.adaptable.app/api/posts"
+        );
+        this.cards = response.data.reverse();
+        // this.cards = response.data; // Assuming the response is an array of card data
       } catch (error) {
-        console.error('Error fetching data:', error);
+        console.error("Error fetching data:", error);
       }
     },
-  }
+  },
 };
 </script>
 
@@ -87,11 +103,11 @@ export default {
   height: calc(100vh - 6rem);
   overflow-x: hidden;
 }
-.toolbar{
+.toolbar {
   font-size: 21px !important;
   font-weight: 600 !important;
   line-height: 24px !important;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .button-text {
   font-size: 14px !important;

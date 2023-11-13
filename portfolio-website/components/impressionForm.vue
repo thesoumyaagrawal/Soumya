@@ -106,6 +106,9 @@
         console.log(axios.post('/api/posts',this.formData));
         const response=await axios.post('https://soumya-agrawal-portfolio.adaptable.app/api/posts',this.formData);
         console.log(response);
+        setTimeout(() => {
+          location.reload();
+        }, 2000);
         //data saved successfully
       }
       catch(error){
