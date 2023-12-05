@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "core-js": "^3.25.3",
+    "dat.gui": "^0.7.9",
+    "express": "^4.18.2",
+    "nuxt": "^2.15.8",
+    "vue": "^2.7.10",
+    "vue-scrollto": "^2.20.0",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10",
+    "vue2-perfect-scrollbar": "^1.5.56",
+    "vuetify": "^2.6.10"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.3",
+    "file-loader": "^6.2.0"
+  }
+}

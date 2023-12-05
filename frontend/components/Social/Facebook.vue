@@ -1,0 +1,23 @@
+<template>
+  <a href="https://m.facebook.com/soumya.agrawal.522?eav=AfbXmiVtIYeACETHGcds53Em3RuX4VcxWtF05MaHUzRb6QrBuj000xLdItb5z1XCZ2k&paipv=0" target="_blank"
+    rel="noopener noreferrer">
+  <svg
+    width="21"
+    height="33"
+    viewBox="0 0 21 33"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M19.6238 18.3431L20.7128 12.4415H13.904V8.61172C13.904 6.99714 14.8552 5.42332 17.9046 5.42332H21V0.398708C21 0.398708 18.191 0 15.5053 0C9.89808 0 6.23292 2.82662 6.23292 7.94359V12.4415H0V18.3431H6.23292V32.61H13.904V18.3431H19.6238Z"
+      fill="#3F51B5"
+    />
+  </svg>
+  </a>
+</template>
+
+<script>
+export default {
+  name: "SocialFacebook",
+};
+</script>
