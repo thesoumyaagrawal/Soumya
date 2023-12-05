@@ -44,15 +44,15 @@ export default {
       activeButton: null,
       items: [
         {
-          subtitle: `C, C++, Python, Javascript`,
+          subtitle: `C, C++, & Javascript`,
           title: "Programming",
         },
         {
-          subtitle: `HTML5, CSS, Bootstrap, Node.js, Vue.js, Vuetify, Nuxt.js.`,
+          subtitle: `HTML5, CSS, Bootstrap, Node.js, React.js, Vue.js, Vuetify, Nuxt.js.`,
           title: "Web Technologies",
         },
         {
-          subtitle: `MySQL`,
+          subtitle: `MySQL, MongoDB`,
           title: "Database Management",
         },
         {

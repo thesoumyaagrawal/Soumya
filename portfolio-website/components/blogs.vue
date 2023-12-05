@@ -120,7 +120,6 @@ And that, my friends, was my 'spectacular' first day. Cue the confetti and firew
 .about-me-card {
   border-radius: 16px !important;
   padding: 48px 36px !important;
-  min-height: 140vh;
   max-width: 90%;
   background-color: #eee0c9;
 }

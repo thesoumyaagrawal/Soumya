@@ -51,7 +51,6 @@
 .about-me-card {
   border-radius: 16px !important;
   padding: 48px 36px !important;
-  height: 120vh;
   max-width: 90%;
   background-color: #EEE0C9;
 }

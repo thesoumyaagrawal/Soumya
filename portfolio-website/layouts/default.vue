@@ -4,7 +4,7 @@
    <v-app dark class="app-container">
     <v-main>
       <div class="blue-rectangle"></div>
-        <!-- <div class="simple-shape-1"><SimpleShapesRingOrange /></div>
+        <div class="simple-shape-1"><SimpleShapesRingOrange /></div>
         <div class="simple-shape-2"><SimpleShapesRingYellow /></div>
         <div class="simple-shape-3"><SimpleShapesRingPink /></div>
         <div class="simple-shape-4"><SimpleShapesArrowOrange /></div>
@@ -16,7 +16,7 @@
         <div class="simple-shape-10"><SimpleShapesArrowYellow /></div>
         <div class="simple-shape-11"><SimpleShapesArrowGreen /></div>
         <div class="simple-shape-12"><SimpleShapesDotGreen /></div>
-        <div class="simple-shape-13"><SimpleShapesBigRings /></div> -->
+        <div class="simple-shape-13"><SimpleShapesBigRings /></div>
       <v-container>
         <Nuxt />
       </v-container>

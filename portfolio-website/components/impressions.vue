@@ -22,12 +22,10 @@
                 <v-card-title>
                   <IconsQuotesLeftIcon></IconsQuotesLeftIcon>
                 </v-card-title>
-
                 <v-card-text class="impression-message">
                   {{ card.comment }}
                 </v-card-text>
                 <span class="quote-right-icon"><IconsQuotesRightIcon /> </span>
-
                 <v-card-actions>
                   <v-list-item class="grow">
                     <v-list-item-avatar
@@ -40,7 +38,6 @@
                         src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairShortCurly&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=White&eyeType=Default&eyebrowType=DefaultNatural&mouthType=Default&skinColor=Light"
                       ></v-img>
                     </v-list-item-avatar>
-
                     <v-list-item-avatar color="grey darken-3" v-else>
                       <v-img
                         class="elevation-6"
@@ -48,7 +45,6 @@
                         src="https://avataaars.io/"
                       ></v-img>
                     </v-list-item-avatar>
-
                     <v-list-item-content>
                       <v-list-item-title>{{ card.name }}</v-list-item-title>
                       <v-list-item-title>{{
@@ -119,7 +115,6 @@ export default {
 .about-me-card {
   border-radius: 16px !important;
   padding: 48px 36px !important;
-  min-height: 140vh;
   max-width: 90%;
   background-color: #eee0c9;
 }
@@ -153,4 +148,6 @@ export default {
 .flex-12 {
   flex: 12;
 }
+
+
 </style>

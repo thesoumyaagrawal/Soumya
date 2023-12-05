@@ -2,7 +2,7 @@
     <div class="image-wrapper">
         <div class="rectangle"></div>
     <v-card class="my-12 image-card" max-width="220" elevation="0" color="transparent">
-        <img src="../assets/Images/photo1.jpg">
+        <img src="../assets/Images/imgmy.jpg">
   </v-card>
 </div>
 </template>

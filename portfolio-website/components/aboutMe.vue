@@ -38,8 +38,7 @@
       <div class="about-me-right">
         <div class="about-me-heading">About Me</div>
         <div class="about-me-title">
-          Innovating Code for Futuristic Solutions.
-        </div>
+          Innnovating Code for Futuristic Solutions.
         <div class="about-me-short-description">
           A Passionate Software & Web Developer based In India.
         </div>
@@ -56,6 +55,7 @@
           on this path, where technology and creativity intertwine to shape
           remarkable digital experiences.</p>
         </div>
+        </div>
 
       </div>
     </div>
@@ -66,7 +66,6 @@
 .about-me-card {
   border-radius: 16px !important;
   padding: 48px 36px !important;
-  height: 140vh;
   max-width: 90%;
   background-color: #EEE0C9;
 }
