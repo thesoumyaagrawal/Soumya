@@ -2,7 +2,7 @@
 I've crafted a dynamic portfolio using Vuetify 2, Vue 2, and Nuxt 2. Experience responsive design, seamless navigation, and engaging interactivity that showcase my skills and projects effectively.
 
 # Project: Portfolio Website
-
+https://soumya-agrawal-portfolio.netlify.app/
 # Overview
 
 This project is a portfolio website built using Nuxt.js, Vue.js, and Vuetify on the frontend, with an Express backend. It includes features like Axios for HTTP requests, dat.gui for a graphical user interface, and vue-scrollto for smooth scrolling.
