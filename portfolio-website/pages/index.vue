@@ -103,26 +103,7 @@
           </a>
           </div>
 
-          <div
-            class="container"
-            :class="{ active: activeButton === 'Contact Me' }"
-          >
-            <a href="#contact">
-              <titleButtons
-                label="Contact Me"
-                :isActive="activeButton === 'Contact Me'"
-                @buttonClicked="handleButtonClicked('Contact Me')"
-              >
-                <template #buttonIcon>
-                  <IconsContactIcon
-                    :stroke="
-                      activeButton === 'Contact Me' ? '#FFFFFF' : '#ED510F'
-                    "
-                  />
-                </template>
-              </titleButtons>
-            </a>
-          </div>
+          
         </div>
       </div>
 
